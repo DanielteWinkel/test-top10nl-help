@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Workflowmanager
 layout: home
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Verkenningsvoorschriften
 layout: home
 ---
 
