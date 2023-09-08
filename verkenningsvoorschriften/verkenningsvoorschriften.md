@@ -1,7 +1,8 @@
 ---
 title: Verkenningsvoorschriften
-layout: home
+layout: page
+has_children: true
+has_toc: true
 ---
 
 Verkenningsvoorschriften
-
