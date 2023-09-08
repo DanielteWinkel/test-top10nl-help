@@ -12,7 +12,7 @@ color_scheme: dark
 logo: "/images/logo.jpeg"
 
 # By default, all Capital letters come before all lowercase letters; you can add nav_sort: case_insensitive in the configuration file to ignore the case.
-# nav_sort: case_insensitive
+nav_sort: case_insensitive
 
 # Enable or disable the site search
 # Supports true (default) or false
