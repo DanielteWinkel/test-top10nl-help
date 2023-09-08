@@ -11,6 +11,10 @@ color_scheme: dark
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/images/logo.jpeg"
 
+# By default, all Capital letters come before all lowercase letters; you can add nav_sort: case_insensitive in the configuration file to ignore the case.
+nav_sort: case_insensitive
+child_nav_order: reversed
+
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
@@ -39,7 +43,7 @@ search:
   button: true
 
 aux_links:
-  GIThub Repository: https://github.com/DanielteWinkel/test-top10nl-help
+  JustTheDocs: https://just-the-docs.github.io/just-the-docs/
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
