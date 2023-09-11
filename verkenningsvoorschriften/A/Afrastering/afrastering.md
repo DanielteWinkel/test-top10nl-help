@@ -1,5 +1,5 @@
 ---
-title: afrastering
+title: Afrastering
 layout: home
 parent: A
 grand_parent: Verkenningsvoorschriften
@@ -34,6 +34,9 @@ Indien een afrastering dwars over een weg loopt en ter plaatse een draaihek, sla
 
 Zie ook [Gaswinning](../../G/Gaswinning/Gaswinning.htm), [Oliewinning](../../O/Oliewinning/Oliewinning.htm), [Wegafsluiting / Wegafsluiter](../../W/Wegafsluiting/Wegafsluiting.htm)
 
-![Closed](../../../Skins/Default/Stylesheets/Images/transparent.gif)Voorbeeld in het terrein
+## Voorbeeld in het terrein
 
 ![](vv_0127_300x240.jpg)![](vv_0128_300x240.jpg)![](vv_0415_300x240.jpg)![](vv_0500_300x225.jpg)![](vv_0501_300x225.jpg)![](vv_0559_300x225.jpg)![](vv_0600_300x225.jpg)
+
+## Test:
+Zie ook [Aanlegsteiger](../../A/Aanlegsteiger/aanlegsteiger.html)
