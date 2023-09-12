@@ -1,3 +1,11 @@
+---
+title: ToDo
+layout: page
+has_children: false
+has_toc: false
+nav_order: 9999
+---
+
 Leerpunten uit de eerste test die straks nog moeten gebeuren op de gehele TOP10NL-help
 
 Onderzoeken:
@@ -14,3 +22,4 @@ Voor het eggie
 
 
 - Alle htm en html archiveren (is oude content MCF)
+
