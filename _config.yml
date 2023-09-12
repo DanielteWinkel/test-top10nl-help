@@ -44,6 +44,9 @@ search:
   # Supports true or false (default)
   button: true
 
+exclude:
+  - aantekeningen.md
+
 aux_links:
   JustTheDocs: https://just-the-docs.github.io/just-the-docs/
 # Makes Aux links open in a new tab. Default is false
