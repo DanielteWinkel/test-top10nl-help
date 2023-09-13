@@ -7,8 +7,8 @@ url: https://danieltewinkel.github.io/test-top10nl-help
 
 # Color scheme supports "light" (default) and "dark"
 # color_scheme: light
-color_scheme: TOP10NL-help_light
-# color_scheme: TOP10NL-help_dark
+color_scheme: TNL_light
+# color_scheme: TNL_dark
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/images/logo.jpeg"
