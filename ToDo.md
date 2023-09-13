@@ -1,6 +1,5 @@
 ---
 title: ToDo
-layout: page
 has_children: false
 has_toc: false
 nav_order: 99
