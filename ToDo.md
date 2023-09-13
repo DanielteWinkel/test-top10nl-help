@@ -3,7 +3,7 @@ title: ToDo
 layout: page
 has_children: false
 has_toc: false
-nav_order: 9999
+nav_order: 99
 ---
 
 Leerpunten uit de eerste test die straks nog moeten gebeuren op de gehele TOP10NL-help
@@ -13,11 +13,12 @@ Onderzoeken:
 - Hoe automatisch converteren
 - Automatisch renamen bij spatie
 
-Voor het eggie
+Voor het eggie:
 - Converteren alle htm / html -> MD
 - Spatie uit bestandsnamen plaatjes
 - Spaties ook uit MD files
 - Alfabetpagina's juiste kopje met links geven
+
 
 
 
