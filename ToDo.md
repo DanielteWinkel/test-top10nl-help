@@ -6,9 +6,21 @@ has_toc: false
 nav_order: 99
 ---
 
-<p><button class="btn js-toggle-dark-mode">Preview dark color scheme</button></p><script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Preview dark color scheme'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Return to the light side'; } }); </script>
+<button class="btn js-toggle-dark-mode">Weergeven in donkere modus</button>
 
-[Toggle dark mode](https://just-the-docs.com){: .btn .btn-purple }
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('TNL_light');
+    toggleDarkMode.textContent = 'Weergeven in donkere modus';
+  } else {
+    jtd.setTheme('TNL_dark');
+    toggleDarkMode.textContent = 'Weergeven in lichte modus';
+  }
+});
+</script>
 
 Leerpunten uit de eerste test die straks nog moeten gebeuren op de gehele TOP10NL-help
 
