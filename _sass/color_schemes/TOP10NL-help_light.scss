@@ -1,11 +1,10 @@
 // override this file to change the light (default) theme
 @import "./color_schemes/light";
 
-$sidebar-color: $grey-dk-000;
+$sidebar-color: $grey-lt-100;
 $code-background-color: $grey-lt-300;
 
-$link-color: $KadKobaltBlauw;
-$nav-child-link-color: $KadInnovatiefBlauw;
+$link-color: $KadInnovatiefBlauw;
+$nav-child-link-color: $KadKobaltBlauw;
 
-$search-background-color: $KadGoud;
 $search-result-preview-color: $grey-dk-100;
