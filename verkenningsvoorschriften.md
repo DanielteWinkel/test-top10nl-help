@@ -6,7 +6,7 @@ has_children: true
 has_toc: true
 ---
 
-Verkenningsvoorschriften
+# Verkenningsvoorschriften
 
 Hier worden de interne verkenningsvoorschriften in detail beschreven: welke objecten in TOP10NL als geo-object worden opgenomen.
 Deze elementen worden altijd in TOP10NL beschreven door een geometrische type, coördinaten, hun betekenis en temporele kenmerken.
