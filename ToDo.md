@@ -7,18 +7,18 @@ has_toc: false
 nav_order: 99
 ---
 
-Leerpunten uit de eerste test die straks nog moeten gebeuren op de gehele TOP10NL-help
+# Leerpunten uit de eerste test die straks nog moeten gebeuren op de gehele TOP10NL-help
 
-Onderzoeken:
+## Onderzoeken
 - Snippets onderzoeken
 - Hoe automatisch converteren
 - Automatisch renamen bij spatie
 
-Proces:
+## Proces
 - Inrichten GITea publicatie
 - Afspraken met DEV-team over beschikbaarheid in de komende (5) jaren
 
-Voor het eggie:
+## Voor het eggie
 - Converteren alle htm / html -> MD
 - Ieder MD file opmaak-kopje van JustTheDocs
 - Uitklappijltjes omzetten in paragraaf ##
@@ -28,6 +28,6 @@ Voor het eggie:
 - Verwijzingen omzetten van htm (MCF) naar html
 
 
-En als laatste:
+## En als laatste
 - Alle htm en html archiveren (is oude content MCF)
 
