@@ -12,7 +12,7 @@ nav_order: 99
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 
 jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
+  if (jtd.getTheme() === 'TNL_dark') {
     jtd.setTheme('TNL_light');
     toggleDarkMode.textContent = 'Weergeven in donkere modus';
   } else {
