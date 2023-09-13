@@ -6,22 +6,6 @@ has_toc: false
 nav_order: 99
 ---
 
-<button class="btn js-toggle-dark-mode">Weergeven in donkere modus</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'TNL_dark') {
-    jtd.setTheme('TNL_light');
-    toggleDarkMode.textContent = 'Weergeven in donkere modus';
-  } else {
-    jtd.setTheme('TNL_dark');
-    toggleDarkMode.textContent = 'Weergeven in lichte modus';
-  }
-});
-</script>
-
 Leerpunten uit de eerste test die straks nog moeten gebeuren op de gehele TOP10NL-help
 
 Onderzoeken:
@@ -40,8 +24,9 @@ Voor het eggie:
 - Spatie uit bestandsnamen plaatjes
 - Spaties ook uit MD files
 - Alfabetpagina's juiste kopje met links geven
-
-
+-
+-
+-
 
 
 - Alle htm en html archiveren (is oude content MCF)
