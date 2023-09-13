@@ -1,18 +1,26 @@
 // override this file to change the light (default) theme
 @import "./color_schemes/light";
 
-
+// kleur van tekst op pagina's
 $body-text-color: $grey-dk-200;
+// kleur van kopjes op pagina's
 $body-heading-color: $KadPaars;
 
+// kleur sidebar (met inhoudsopgave)
 $sidebar-color: $grey-lt-100;
 
+// kleur links
 $link-color: $KadInnovatiefBlauw;
+// kleur secundaire links in sidebar (met inhoudsopgave)
 $nav-child-link-color: $KadKobaltBlauw;
 
+// kleur zoekresultaten
 $search-result-preview-color: $grey-dk-200;
 
+// achtergrondkeur van code-blokken
 $code-background-color: $grey-lt-300;
 
+// kleur van standaard-button
 $base-button-color: $KadOranje;
+// kleur tekst in standaard-button
 $btn-primary-color: $white;
