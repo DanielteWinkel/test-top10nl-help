@@ -23,9 +23,11 @@ Voor het eggie:
 - Ieder MD file opmaak-kopje van JustTheDocs
 - Uitklappijltjes omzetten in paragraaf ##
 - Spatie uit bestandsnamen plaatjes
-- Spaties ook uit MD files
+- Spaties ook uit links in MD files
 - Alfabetpagina's juiste kopje met links geven
--
--
+- Verwijzingen omzetten van htm (MCF) naar html
+
+
+En als laatste:
 - Alle htm en html archiveren (is oude content MCF)
 
