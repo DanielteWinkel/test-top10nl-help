@@ -26,8 +26,5 @@ Voor het eggie:
 - Alfabetpagina's juiste kopje met links geven
 -
 -
--
-
-
 - Alle htm en html archiveren (is oude content MCF)
 
