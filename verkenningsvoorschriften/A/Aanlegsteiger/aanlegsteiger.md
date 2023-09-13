@@ -1,7 +1,7 @@
 ---
 title: Aanlegsteiger
 last_modified_date: 13-09-2023
-layout: home
+layout: page
 grand_parent: Verkenningsvoorschriften
 parent: A
 has_children: false
