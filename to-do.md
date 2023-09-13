@@ -15,6 +15,7 @@ nav_order: 99
 - Automatisch renamen bij spatie
 
 ## Proces
+- Testdata migreren naar GITea
 - Inrichten GITea publicatie
 - Afspraken met DEV-team over beschikbaarheid in de komende (5) jaren
 
