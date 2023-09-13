@@ -15,6 +15,8 @@ Onderzoeken:
 
 Voor het eggie:
 - Converteren alle htm / html -> MD
+- Ieder MD file opmaak-kopje van JustTheDocs
+- Uitklappijltjes omzetten in paragraaf ##
 - Spatie uit bestandsnamen plaatjes
 - Spaties ook uit MD files
 - Alfabetpagina's juiste kopje met links geven
