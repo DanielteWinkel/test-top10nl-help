@@ -1,7 +1,6 @@
 ---
 title: ToDo
 last_modified_date: 13-09-2023
-layout: page
 has_children: false
 has_toc: false
 nav_order: 99

@@ -46,6 +46,13 @@ search:
   # Supports true or false (default)
   button: true
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
 exclude:
   - aantekeningen.md
 
