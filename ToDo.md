@@ -13,6 +13,10 @@ Onderzoeken:
 - Hoe automatisch converteren
 - Automatisch renamen bij spatie
 
+Proces:
+- Inrichten GITea publicatie
+- Afspraken met DEV-team over beschikbaarheid in de komende (5) jaren
+
 Voor het eggie:
 - Converteren alle htm / html -> MD
 - Ieder MD file opmaak-kopje van JustTheDocs
