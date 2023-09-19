@@ -1,12 +1,13 @@
 ---
 title: Verkenningsvoorschriften
-last_modified_date: 13-09-2023
+last_modified_date: 19-09-2023
 layout: page
 has_children: true
 has_toc: true
 ---
 
-# Verkenningsvoorschriften
+Verkenningsvoorschriften voor TOP10NL
+=====================================
 
 Hier worden de interne verkenningsvoorschriften in detail beschreven: welke objecten in TOP10NL als geo-object worden opgenomen.
 Deze elementen worden altijd in TOP10NL beschreven door een geometrische type, coördinaten, hun betekenis en temporele kenmerken.
@@ -16,3 +17,123 @@ In de Objectcatalogus TOP10NL zijn de inwinningscriteria uit de verkenningsvoors
 Deze worden aangepast indien nieuwe of vervallen relevante categorieën worden geconstateerd of indien gebruikerswensen en verbeteringen in de productiemethodiek daartoe aanleiding geven.
 
 Elke topograaf dient zich op de hoogte te stellen van de nu geldende regels. Alle vroeger geldende regels zijn vervallen.
+
+
+Voor andere hulp over TOP10NL kan je terug naar de hoofdpagina via de home knop en zijn er [hier](file:///V:/GVA/GI_Topografie/Topografie/handleidingen) nog actuele handleidingen in PDF-formaat te vinden.
+
+## Laatste wijzigingen binnen de verkenningsvoorschriften
+
+| ### Klik hier: [Wijzigingen doorgevoerd op 12 april 2023.](https://hetkadaster.sharepoint.com/sites/gd-odr/1e20b/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20op%2012%20april%202023.pdf?csf=1&web=1&e=y1aCQg) (Rechtermuisknop → openen in nieuw tabblad). |
+| ### Klik hier: [Wijzigingen doorgevoerd op 22 november 2022.](https://hetkadaster.sharepoint.com/sites/gd-odr/1e20b/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20op%2022%20november%202022.pdf?csf=1&web=1&e=uwd0mR) (Rechtermuisknop → openen in nieuw tabblad). |
+| ### Klik hier: [Wijzigingen doorgevoerd op 3 augustus 2022.](https://hetkadaster.sharepoint.com/sites/gd-odr/1e20b/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20op%203%20augustus%202022.pdf?csf=1&web=1&e=gxXRRs) (Rechtermuisknop → openen in nieuw tabblad). |
+| ### Klik hier: [Wijzigingen doorgevoerd op 16 juni 2022.](https://hetkadaster.sharepoint.com/sites/gd-odr/1e20b/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20op%2014%20juni%202022.pdf?csf=1&web=1&e=ANcceb) (Rechtermuisknop → openen in nieuw tabblad). |
+| ### Klik hier: [Wijzigingen doorgevoerd op 18 mei 2022.](https://hetkadaster.sharepoint.com/sites/gd-odr/1e20b/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20op%2018%20mei%202022.pdf?csf=1&web=1&e=PGRPeu) (Rechtermuisknop → openen in nieuw tabblad). |
+| ### Klik hier: [Wijzigingen doorgevoerd op 23 maart 2022.](https://hetkadaster.sharepoint.com/sites/gd-odr/1e20b/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20in%20TTNLH%20op%2023%20maart%202022.pdf?csf=1&web=1&e=aKbXzI) (Rechtermuisknop → openen in nieuw tabblad). |
+| ### Klik hier: [](https://hetkadaster.sharepoint.com/sites/gd-odr/1e20b/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20in%20TTNLH%20op%2028%20juni%202021.pdf?csf=1&web=1&e=WlSNfV)[Wijzigingen doorgevoerd op 28 juni 2021](https://hetkadaster.sharepoint.com/sites/gd-ia/GI_Topografie/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20in%20TTNLH%20op%2011%20mei%202021.pdf?csf=1&web=1&e=nvaSY2)[.](https://hetkadaster.sharepoint.com/sites/gd-ia/GI_Topografie/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20in%20TTNLH%20op%2011%20mei%202021.pdf?csf=1&web=1&e=nvaSY2) (Rechtermuisknop → openen in nieuw tabblad). |
+| ### Klik hier: [Wijzigingen doorgevoerd op 11 mei 2021](https://hetkadaster.sharepoint.com/sites/gd-odr/1e20b/Topografie/handleidingen/9-Diversen/Wijzigingen%20TOP10NLHelp/Verwerkt%20in%20TTNLH%20op%2011%20mei%202021.pdf?csf=1&web=1&e=zZ2kIn). (Rechtermuisknop → openen in nieuw tabblad). |
+| [Zichtbaar wrak](Alfabet/Z/Zichtbaar%20wrak/Zichtbaar%20wrak.htm)  <br>Nieuw item.<br><br>23.07.2020 |
+| [Wegrestaurant](Alfabet/W/Wegrestaurant/Wegrestaurant.htm)  <br>Nieuw item.<br><br>23.07.2020 |
+| [Stationsgebouw](Alfabet/S/Stationsgebouw/Stationsgebouw.htm)  <br>Nieuw item.<br><br>23.07.2020 |
+| [Hoofdafwateringspatroon (HAP)](Alfabet/H/Hoofdafwateringspatroon/Hoofdafwateringspatroon.htm)  <br>Nieuw item.<br><br>23.07.2020 |
+| **Gebouw**  <br>Bij alle gebouwtypen aangegeven dat deze nu via een thematisch proces worden bijgehouden en de mutaties in de geometrie worden overgenomen uit de BAG.<br><br>03.03.2020 |
+| [Hoofdafwateringspatroon (HAP)](Alfabet/H/Hoofdafwateringspatroon/Hoofdafwateringspatroon.htm)  <br>Verduidelijking regels.<br><br>10.12.2019 |
+| [Gebouw](Alfabet/G/Gebouw/Gebouw.htm), [Gevangenis](Alfabet/G/Gevangenis/Gevangenis.htm), [Ziekenhuis](Alfabet/Z/Ziekenhuis/Ziekenhuis.htm), [Universiteit](Alfabet/U/Universiteit/Universiteit.htm), [Klooster](Alfabet/K/Klooster/Klooster.htm), [Abdij](Alfabet/A/Abdij/Abdij.htm), [Fabriek](Alfabet/F/Fabriek/Fabriek.htm), [Revalidatiecentrum](Alfabet/R/Revalidatiecentrum/Revalidatiecentrum.htm)<br><br>Het kenniscentrum heeft een aantal aanpassingen op het gebied van bovenstaande gebouwtypes, -namen en – soortnamen opgesteld.<br><br>29.10.2019 |
+| [Rotonde](Alfabet/R/Rotonde/Rotonde.htm)<br><br>In verband met een kwaliteitsactie voor rotondes verschillende regels en voorbeelden toegevoegd.<br><br>19.09.2019 |
+| Nieuw voorbeeld toegevoegd bij Wegenclassificaties: [Voorbeelden in ArcMap: Gescheiden rijbanen](Alfabet/W/Wegenclassificaties/Wegenclassificaties.htm#GescheidenRijbanen).<br><br>11.07.2019 |
+| Nieuw item toegevoegd: [Calamiteitendoorgang (CADO)](Alfabet/C/Calamiteitendoorgang%20(CADO)/Calamiteitendoorgang%20(CADO).htm).<br><br>11.07.2019 |
+| Nieuw item toegevoegd: [Boorplatform](Alfabet/B/Boorplatform/Boorplatform.htm).<br><br>26.04.2019 |
+| Item [Bestaande bebouwing](Alfabet/B/Bestaande%20bebouwing/Bestaande%20bebouwing.htm) aangepast (inclusief pagina [Algemene regels](Algemene%20regels.htm).<br><br>26.04.2019 |
+| Alle links naar U-schijf vervangen door links naar V-schijf.<br><br>_03.04.2019_ |
+| [Seinmast](Alfabet/S/Seinmast/Seinmast.htm)<br><br>Foto seinmast vervangen.<br><br>_03.04.2019_ |
+| [Veerdienst](Alfabet/V/Veerdienst/Veerdienst.htm), [Voetveer](Alfabet/V/Voetveer/Voetveer.htm), [Pontveer](Alfabet/P/Pontveer/Pontveer.htm), [Fietsveer](Alfabet/F/Fietsveer/Fietsveer.htm)<br><br>Verduidelijking regels:<br><br>Als er meerdere veerverbindingen (gedeeltelijk) via hetzelfde tracé lopen, dan moeten deze op enige afstand parallel aan elkaar getekend worden. Als de breedte van het watervlak dat toelaat, moet dat ca. 10 meter zijn. Dit in verband met de leesbaarheid van het kaartbeeld van de 1:25.000-kaart.<br><br>Als meerdere veerverbindingen op hetzelfde punt “aan land” komen en er is geen aansluitende weg is op de kade, mag er nooit een wegpunt (+weghartpunt) ter plaatse getekend worden. In praktische zin betekent dit dat bij drie veerverbindingen deze op het aanlandingspunt niet op elkaar aangesloten mogen worden. Minstens één veerverbindingslijn moet dan een ander aanlandingspunt krijgen. Dit heeft te maken met het feit dat de Update-Attribute-Tool niet toestaat dat er weghartpunten bestaan waarop uitsluitend veerverbindingen samenkomen.<br><br>_03.04.2019_ |
+| [Externe bronnen / data](Alfabet/E/Externe%20data/Externe%20bronnen%20data.htm)<br><br>Inhoud pagina vernieuwd en daardoor ook alle betreffende items aangevuld/gewijzigd.<br><br>_03.04.2019_ |
+| [Op- en afrit](Alfabet/O/Op_Afrit/Op_Afrit.htm)<br><br>Voorbeelden ArcMap van kruisingsvlak en op- en afrit toegevoegd.<br><br>_03.04.2019_ |
+| Verschillende wijzigingen n.a.v. datamodelwijzigingen<br><br>_03.04.2019_ |
+| [Spoorbaanlichaam](Alfabet/S/Spoorbaanlichaam/Spoorbaanlichaam.htm)<br><br>Afbeelding toegevoegd met te kleine vlakjes gras. In deze situatie niet samenvoegen met spoorbaanlichaam, ondanks dat het twee terreinvlakken zijn waarvan de ene < 1000m2 is.<br><br>_03.04.2019_ |
+| [Berm](Alfabet/B/Berm/Berm.htm)<br><br>Aantal voorbeelden in ArcMap toegevoegd.<br><br>_03.04.2019_ |
+| [Wegafsluiting / Wegafsluiter](Alfabet/W/Wegafsluiting/Wegafsluiting.htm)<br><br>Tussen 2018 en 2023 zullen alle onbewaakte spoorwegovergangen verdwijnen.<br><br>Tijdelijke (deels) afgesloten overgangen kunnen worden weergegeven met een wegafsluiter.<br><br>Omdat deze afsluitingen vaak niet worden opgemerkt bij het scannen, worden ze jaarlijks met een externe bron van ProRail opgespoord en verwerkt.<br><br>03.04.2019 |
+| [Transformatorstation](Alfabet/T/Transformatorstation/Transformatorstation.htm)<br><br>Toevoeging punt bij criteria:<br><br>Alleen transformatorstations met een bijbehorend omheind terrein intekenen als functioneel gebied. Is er alleen een gebouw, dan geven we geen functioneel gebied.<br><br>15.01.2019 |
+| [Zuiveringsinstallatie](Alfabet/Z/Zuiveringsinstallatie/Zuiveringsinstallatie.htm)<br><br>Toegevoegd:<br><br>### Criteria<br><br>Alleen afzonderlijke zuiveringsinstallaties, bijvoorbeeld voor het zuiveren van rioolwater, intekenen als functioneel gebied. Waterzuivering van fabrieken niet als functioneel gebied zuiveringsinstallatie intekenen.<br><br>Gewijzigd:<br><br>### Naam<br><br>Niet overnemen<br><br>15.01.2019 |
+| [Wildwissel](Alfabet/W/Wildwissel/Wildwissel.htm)<br><br>Wijziging criteria:<br><br>Alleen doorgangen boven of onder een weg, spoorweg of waterweg die specifiek bedoeld zijn voor groot wild aangeven als wildwissel. Buizen onder de weg niet aangeven en bijv. ook geen wegen onder viaducten aangeven die door wild gebruikt zouden kunnen worden, maar er niet specifiek voor bedoeld zijn.<br><br>15.01.2019 |
+| [Object](Alfabet/O/Object/Object.htm)<br><br>Toevoeging vlakobject:<br><br>Te kleine vlakken die echter deel uitmaken van een logisch geheel mogen wel gegeven worden.<br><br>12.11.2018 |
+| [Pontveer](Alfabet/P/Pontveer/Pontveer.htm)<br><br>Wijziging regelgeving.<br><br>02.07.2018 |
+| [Voetveer](Alfabet/V/Voetveer/Voetveer.htm)<br><br>Wijziging regelgeving.<br><br>02.07.2018 |
+| [Woonkern](Alfabet/W/Woonkern/Woonkern.htm)<br><br>Nieuw item.<br><br>02.07.2018 |
+| [Industriekern](Alfabet/I/Industriekern/Industriekern.htm)<br><br>Nieuw item.<br><br>02.07.2018 |
+| [Recreatiekern](Alfabet/R/Recreatiekern/Recreatiekern.htm)<br><br>Nieuw item.<br><br>02.07.2018 |
+| [Gehucht](Alfabet/G/Gehucht/Gehucht.htm)<br><br>Nieuw item (ter vervanging van 'Huizengroep').<br><br>02.07.2018 |
+| [Deelkern](Alfabet/D/Deelkern/Deelkern.htm)<br><br>Nieuw item.<br><br>02.07.2018 |
+| [Wijk](Alfabet/W/Wijk/Wijk.htm)<br><br>Nieuw item (ter vervanging van 'Dorpswijk').<br><br>02.07.2018 |
+| [Grindwinning](Alfabet/G/Grindwinning/Grindwinning.htm)<br><br>Verduidelijking voorschriften.<br><br>02.07.2018 |
+| [Zandwinning](Alfabet/Z/Zandwinning/Zandwinning.htm)<br><br>Verduidelijking voorschriften.<br><br>02.07.2018 |
+| [Camperplaats](Alfabet/C/Camperplaats/Camperplaats.htm)<br><br>Nieuw item.<br><br>02.07.2018 |
+| [Wegnaam](Alfabet/W/Wegnaam/Wegnaam.htm)<br><br>Nieuw item.<br><br>02.07.2018 |
+| [Openbaar](Alfabet/O/Openbaar/Openbaar.htm)<br><br>Verduidelijking voorschriften betreffende parkeerfaciliteit.<br><br>02.07.2018 |
+| [Gemeentehuis](Alfabet/G/Gemeentehuis/Gemeentehuis.htm)<br><br>Voorschriften gewijzigd; wordt nu ingewonnen op basis van een externe bron.<br><br>02.07.2018 |
+| [Stadskantoor / Gemeentekantoor](Alfabet/S/Stadskantoor_Gemeentekantoor/Stadskantoor_Gemeentekantoor.htm)<br><br>Voorschriften gewijzigd; wordt nu ingewonnen op basis van een externe bron.<br><br>02.07.2018 |
+| [Hulpsecretarie](Alfabet/H/Hulpsecretarie/Hulpsecretarie.htm)<br><br>Voorschriften gewijzigd; wordt nu ingewonnen op basis van een externe bron.<br><br>02.07.2018 |
+| [Politiebureau](Alfabet/P/Politiebureau/Politiebureau.htm)<br><br>Voorschriften gewijzigd; wordt nu ingewonnen op basis van een externe bron.<br><br>02.07.2018 |
+| [Postkantoor](Alfabet/P/Postkantoor/Postkantoor.htm)<br><br>Voorschriften gewijzigd; wordt nu ingewonnen op basis van een externe bron.<br><br>02.07.2018 |
+| [Steile rand](Alfabet/S/Steile%20rand/Steile%20rand.htm)<br><br>Verduidelijking voorschriften<br><br>02.07.2018 |
+| [Riet](Alfabet/R/Riet/Riet.htm)<br><br>Minimum breedtemaat rietkragen vastgesteld op 6 meter (en > 1000 m²).<br><br>03.04.2018 |
+| [Dodenakker en Dodenakker met bos](Alfabet/D/Dodenakker%20en%20Dodenakker%20met%20bos/Dodenakker%20en%20Dodenakker%20met%20bos.htm)<br><br>Verduidelijking heg/haag/bomenrij op dodenakker.<br><br>03.04.2018 |
+| [Wegenclassificaties](Alfabet/W/Wegenclassificaties/Wegenclassificaties.htm)<br><br>Voorbeelden toegevoegd wanneer een weg wordt beschouwd als weg met gescheiden rijbanen.  <br>Zie ‘Voorbeeld in het terrein: Wél of géén gescheiden rijbanen of verkeersgeleider’.<br><br>07.12.2017 |
+| [Geluidswal \| Geluidwering](Alfabet/G/Geluidswal_Geluidwering/Geluidswal_Geluidwering.htm)<br><br>Verduidelijking voorschriften.<br><br>07.12.2017 |
+| [Bebouwing](Alfabet/B/Bebouwing/Bebouwing.htm)<br><br>Verduidelijking m.b.t. glazen overkappingen. Zie ‘Voorbeeld in het terrein’.<br><br>07.12.2017 |
+| [Goederenspoorweg](Alfabet/G/Goederenspoorweg/Goederenspoorweg.htm)<br><br>Wijziging statusomschrijving spoorbaan, zie: [Externe bronnen / data](Alfabet/E/Externe%20data/Externe%20bronnen%20data.htm).  <br>De attributen worden gecontroleerd aan de hand van een externe bron.<br><br>07.12.2017 |
+| [Spoorbaan](Alfabet/S/Spoorbaan/Spoorbaan.htm)<br><br>Wijziging statusomschrijving spoorbaan, zie: [Externe bronnen / data](Alfabet/E/Externe%20data/Externe%20bronnen%20data.htm).  <br>De attributen worden gecontroleerd aan de hand van een externe bron.<br><br>07.12.2017 |
+| [Parkeerterrein](Alfabet/P/Parkeerterrein/Parkeerterrein.htm)<br><br>Voorschriften uitgebreid m.b.t. parkeerhavens. Ter verduidelijking extra afbeeldingen toegevoegd.<br><br>19.10.2017 |
+| [Haven](Alfabet/H/Haven/Haven.htm) \| [Jachthaven](Alfabet/J/Jachthaven/Jachthaven.htm) \| [Werkhaven](Alfabet/W/Werkhaven/Werkhaven.htm)<br><br>Verduidelijking voorschriften; doorgaande waterloop behoort niet tot de havenkom.<br><br>19.10.2017 |
+| [Windmolen](Alfabet/W/Windmolen/Windmolen.htm)<br><br>Verduidelijking voorschriften.<br><br>12.10.2017 |
+| ### [Bebouwing met religieuze bestemming](Alfabet/B/Bebouwing%20met%20religieuze%20bestemming/Bebouwing%20met%20religieuze%20bestemming.htm)<br><br>Nieuwe regel toegevoegd:<br><br>De religie van bestaande religieuze gebouwen **NIET** muteren, er wordt gebruik gemaakt van een externe bron.<br><br>26.09.2017 |
+| ### [Wegenclassificaties](Alfabet/W/Wegenclassificaties/Wegenclassificaties.htm)<br><br>Nieuwe regel toegevoegd:<br><br>Toegangsweg langer dan 250 meter met wegafsluiter (open of dicht) naar landerij(en) geven als O>2. Zonder wegafsluiter langer dan 250 meter geven naar voorkomen.<br><br>26.09.2017 |
+| ### [Wegenclassificaties](Alfabet/W/Wegenclassificaties/Wegenclassificaties.htm)<br><br>Nieuwe uitzondering toegevoegd:<br><br>Bij grote stadsdelen mag een weg regionaal worden opgenomen wanneer deze is aangeduid met witte ANWB-borden.<br><br>26.09.2017 |
+| ### [Brandweerkazerne](Alfabet/B/Brandweerkazerne/Brandweerkazerne.htm)<br><br>Nieuw gebouwtype vanuit Datamodel 1.2.<br><br>26.09.2017 |
+| [Duin](Alfabet/D/Duin/Duin.htm)<br><br>Nieuw terreintype vanuit Datamodel 1.2.<br><br>26.09.2017 |
+| ### [Voorbeelden in ArcMap](Alfabet/V/Voorbeelden%20in%20ArcMap/Voorbeelden%20in%20ArcMap.htm)<br><br>Nieuwe pagina met alle voorbeelden uit ArcMap.<br><br>14.09.2017 |
+| ### [Treinstation](Alfabet/T/Treinstation/Treinstation.htm)<br><br>De overkapping van een treinstation wordt gegeven indien deze zowel over het perron als het spoor ligt.<br><br>31.07.2017 |
+| ### [Sluisdeur](Alfabet/S/Sluisdeur/Sluisdeur.htm)<br><br>Door een wijziging in de validatie is het nu mogelijk sluisdeur(en) te geven bij een sluis.<br><br>31.07.2017 |
+| ### [Wegafsluiting / Wegafsluiter](Alfabet/W/Wegafsluiting/Wegafsluiting.htm)<br><br>Wegafsluiters (zoals slagbomen) naar een parkeerplaats, worden gegeven wanneer deze in de weg gelegen zijn (dus niet aan het eind van de weg).<br><br>31.07.2017 |
+| ### [Zonnepark](Alfabet/Z/Zonnepark/Zonnepark.htm)<br><br>Nieuw item in de verkenningsvoorschriften, wordt gegeven als functioneel gebied.<br><br>Ondergrond geven naar voorkomen.<br><br>31.07.2017 |
+| ### [Tuincentrum](Alfabet/T/Tuincentrum/Tuincentrum.htm)<br><br>Bebouwing op tuincentrum welke volledig uit glas bestaat geven als kas.<br><br>31.07.2017 |
+| ### [Stapmolen (Tredmolen)](Alfabet/S/Stapmolen/Stapmolen.htm)<br><br>Uitsluitend een stapmolen met geheel gesloten dak wordt ingewonnen als bebouwing.<br><br>31.07.2017 |
+
+|     |
+| --- |
+| Laatste wijzigingen binnen de regelgeving Functionele Gebieden |
+| [Ziekenhuiscomplex](Alfabet/Z/Ziekenhuiscomplex/Ziekenhuiscomplex.htm)  <br>Punt 3 onder 'naam' toegevoegd.<br><br>_10.12.2019_ |
+| [Busstation](Alfabet/B/Busstation/Busstation.htm)<br>-------------------------------------------------<br><br>Regelgeving inrichtingselement busstation uitgebreid.<br><br>_29.10.2019_ |
+| [Caravanpark](Alfabet/C/Caravanpark/Caravanpark.htm)<br>----------------------------------------------------<br><br>Tweede subpunt gewijzigd onder Criteria:<br>----------------------------------------<br><br>Terreinen met een combinatie van bungalows en stacaravans en/of kampeerplaatsen worden functioneel gebied ‘vakantiepark’.<br><br>_19.09.2019_ |
+| ### [Zwembadcomplex](Alfabet/Z/Zwembadcomplex/Zwembadcomplex.htm)<br><br>Extra punt toegevoegd onder Criteria:<br>-------------------------------------<br><br>Een natuurbad geven we niet aan als functioneel gebied van type zwembadcomplex, maar als functioneel gebied van type recreatiegebied.<br><br>_19.09.2019_ |
+| ### [Grafheuvel](Alfabet/G/Grafheuvel/Grafheuvel.htm)<br><br>Naam<br>----<br><br>Niet overnemen van de externe bron. Een in de volksmond bekende naam voor de grafheuvel wel opnemen.<br>----------------------------------------------------------------------------------------------------<br><br>_19.09.2019_ |
+| _Regelgeving functioneel gebied_  [Gaswinning](Alfabet/G/Gaswinning/Gaswinning.htm), [Oliewinning](Alfabet/O/Oliewinning/Oliewinning.htm), [Zoutwinning](Alfabet/Z/Zoutwinning/Zoutwinning.htm) en [Productie- installatie](Alfabet/P/Productie-%20installatie/Productie-%20installatie.htm)  aangepast.<br><br>_26.04.2019_ |
+| [Begraafplaats](Alfabet/B/Begraafplaats/Begraafplaats.htm)<br><br>Verduidelijking regels:<br><br>* Bijzondere begraafplaats > alleen gebruiken voor begraafplaatsen van verenigingen, stichtingen, uitvaartorganisaties, enz. die niet onder een van de voorgaande categorieën vallen.<br>* Bij twijfel over de juiste soortnaam is het karakter van de begraafplaats bepalend: een hervormde begraafplaats die beheerd wordt door de gemeente geven we aan als Protestantse begraafplaats, een voormalige hervormde begraafplaats die inmiddels in gebruik is als algemene begraafplaats geven we aan als Gemeentelijke begraafplaats. Overigens zijn veel algemene begraafplaatsen tegenwoordig in beheer bij stichtingen, maar desondanks geven we algemene begraafplaatsen aan als Gemeentelijke begraafplaats en NIET als Bijzondere begraafplaats.<br>    <br><br>_03.04.2019_ |
+| ### [Sportterrein / Sportveld](Alfabet/S/Sportterrein,%20Sportveld/Sportterrein,%20Sportveld.htm) en [Tennispark](Alfabet/T/Tennispark/Tennispark.htm)<br><br>Wijziging:<br><br>Kantines en gebouwen binnen het vlak tekenen als deze binnen de omheining van het terrein vallen of als deze direct aan het gebied grenzen en een duidelijke relatie met het functioneel gebied hebben.<br><br>19.09.2018 |
+| [Functioneel gebied](Alfabet/F/Functioneel%20gebied/Functioneel%20gebied.htm)<br><br>Wijziging:<br><br>Parkeerterreinen alleen binnen het vlak tekenen als deze binnen de omheining van het terrein vallen, door een slagboom o.i.d. uitsluitend voor het functioneel gebied toegankelijk zijn (een bordje ‘eigen terrein’ is niet voldoende), of - met uitzondering van de toegangsweg - volledig door het functioneel gebied omgeven worden.<br><br>19.09.2018 |
+| [Militair oefenterrein](Alfabet/M/Militair%20oefenterrein/Militair%20oefenterrein.htm)<br><br>Toevoeging regel bij 'Naam':<br><br>• Namen in kapitalen omzetten in hoofd- en kleine letters conform de regels van het Namenboek.<br><br>02.07.2018 |
+| [Kazerne, Legerplaats](Alfabet/K/Kazerne/Kazerne.htm)<br><br>Wijziging regelgeving:<br><br>#### Begrenzing<br><br>Overnemen van externe bron.<br><br>#### Naam<br><br>* Overnemen van externe bron.<br>* Namen in kapitalen omzetten in hoofd- en kleine letters conform de regels van het Namenboek.<br>    <br><br>02.07.2018 |
+| [Boswachterij](Alfabet/B/Boswachterij/Boswachterij.htm)<br><br>Wijziging regelgeving:<br><br>#### Criteria<br><br>De indeling van gebieden in houtvesterijen en boswachterijen bestaat niet meer bij Staatsbosbeheer. Tegenwoordig wordt de volgende hiërarchie aan indelingen toegepast: Provinciale Eenheid - Beheergebied - Planeenheid - Object. Al deze indelingen zijn landsdekkend en de begrenzingen zijn op elkaar afgestemd. Binnen het gebied van een Object worden de afzonderlijke terreinen van Staatsbosbeheer als Deelobject aangeduid. Deelobjecten hebben geen eigen naam; hiervoor worden de Objectnamen gebruikt. Sommige van deze namen beginnen van oudsher met ‘Boswachterij’, bijv. “Boswachterij Gees”. Deze namen staan ook vermeld op de borden bij de ingang van een terrein.<br><br>We nemen de Deelobjecten over als functioneel gebied boswachterij.<br><br>#### Begrenzing<br><br>Overnemen van de bron, waarbij we alle Deelobjecten met dezelfde Objectnaam samenvoegen tot meervoudig vlakobject (multipart).<br><br>#### Externe Bron<br><br>Zie Bronnenboek.<br><br>#### Naam<br><br>Naam van het Object overnemen van de bron.<br><br>02.07.2018 |
+| [Begraafplaats](Alfabet/B/Begraafplaats/Begraafplaats.htm)<br><br>Verduidelijking criteria:<br><br>* Indien een gewone begraafplaats een aparte afdeling heeft met oorlogsgraven, tekenen we dit gedeelte ook als erebegraafplaats in.<br>* Indien op een gewone begraafplaats een aantal oorlogsgraven aanwezig zijn tussen de andere graven, dus zonder aparte afdeling, tekenen we geen erebegraafplaats in.<br><br>06.06.2018 |
+| [Erebegraafplaats](Alfabet/E/Erebegraafplaats/Erebegraafplaats.htm)<br><br>Verduidelijking criteria:<br><br>* Indien een gewone begraafplaats een aparte afdeling heeft met oorlogsgraven, tekenen we dit gedeelte ook als erebegraafplaats in.<br>* Indien op een gewone begraafplaats een aantal oorlogsgraven aanwezig zijn tussen de andere graven, dus zonder aparte afdeling, tekenen we geen erebegraafplaats in.<br><br>06.06.2018 |
+| [Bedrijventerrein](Alfabet/B/Bedrijventerrein/Bedrijventerrein.htm)<br><br>Verduidelijking begrenzing:<br><br>* Toevoerwegen behoren niet tot het vlak in geval van een bedrijventerrein met slechts één bedrijf. Wegen op het bedrijfsperceel vallen wel binnen het vlak.<br>* Toevoerwegen behoren niet tot het vlak indien het gedeelte van de weg dat toegang geeft tot de bedrijven ook dient ter ontsluiting van andere dan bedrijfspercelen, bijvoorbeeld doordat er woonhuizen staan aan de overzijde van de weg. Als hier sprake van is, laten we de betreffende toevoerweg in zijn geheel buiten het vlak.<br><br>06.06.2018 |
+| [Sportterrein / Sportveld](Alfabet/S/Sportterrein,%20Sportveld/Sportterrein,%20Sportveld.htm)<br><br>Verduidelijking/wijziging criteria:<br><br>* Voor een functioneel gebied sportterrein, sportcomplex moet er sprake zijn van al dan niet belijnde sportvelden geschikt voor wedstrijdsport (dus geen trapveldjes of recreatieve basketbalveldjes) van minstens één sport die niet al door een ander functioneel gebied of gebouwtype wordt beschreven, bijvoorbeeld voetbal, honkbal, hockey, rugby, cricket, kaatsen, etc.<br>* Sporten die al door een ander functioneel gebied worden beschreven (auto- en motorsport, golf, paardensport, schaatsen, skiën, tennis en zwemmen), tellen dus NIET mee bij het bepalen of een functioneel gebied sportterrein moet worden ingetekend. Maar als ze deel uitmaken van een sportcomplex waarvoor een functioneel gebied sportterrein, sportcomplex is ingetekend, vallen ze WEL binnen het vlak van het functioneel gebied sportterrein, sportcomplex. Overlap van functionele gebieden is dus mogelijk.<br>* Gebouwen waar wedstrijdsporten in plaatsvinden en die met een bijbehorend gebouwtype beschreven worden (bijv. kunstijsbaan, manege, sporthal of stadion), tellen dus NIET mee bij het bepalen of een functioneel gebied sportterrein, sportcomplex moet worden ingetekend. Maar als ze deel uitmaken van een sportcomplex waarvoor een functioneel gebied sportterrein, sportcomplex is ingetekend, vallen deze gebouwen WEL binnen het vlak.<br><br>06.06.2018 |
+| [Windturbinepark](Alfabet/W/Windturbinepark/Windturbinepark.htm)<br><br>Wijziging regelgeving:<br><br>#### Criteria:<br><br>* Alleen clusters van twee of meer windturbines geven we aan als windturbinepark.<br>* Om te bepalen of een windturbine onderdeel is van een cluster en dus van een windturbinepark, kijken we naar de naam van het windpark in de externe bron en het aantal windturbines dat onder dit windpark valt. Alle windparken met twee of meer windturbines beschouwen we als windturbinepark.<br><br>#### Begrenzing<br><br>* Automatisch te bepalen uit samengevoegde buffers van 250 meter rond clusters van twee of meer windturbines.<br>* Indien de windturbines in een windturbinepark verder dan 500 meter van elkaar verwijderd staan, tekenen we een meervoudig object (multipart) in.<br><br>#### Naam<br><br>Naam overnemen van de naam van het windpark in de externe bron.<br><br>03.05.2018 |
+| [Begraafplaats](Alfabet/B/Begraafplaats/Begraafplaats.htm)<br><br>Verduidelijking criteria:<br><br>* Bij een kerkhof (begraafplaats bij of rond een kerkgebouw) valt het kerkgebouw – ongeacht de functie – binnen het vlak begraafplaats.<br><br>10.04.2018 |
+| [Sportterrein / Sportveld](Alfabet/S/Sportterrein,%20Sportveld/Sportterrein,%20Sportveld.htm)<br><br>Toevoeging naam:<br><br>* Verenigingsnaam niet overnemen. Ook niet als de naam van het complex hetzelfde is als de vereniging.<br><br>10.04.2018 |
+| [Tennispark](Alfabet/T/Tennispark/Tennispark.htm)<br><br>Toevoeging naam:<br><br>* Verenigingsnaam niet overnemen. Ook niet als de naam van het complex hetzelfde is als de vereniging.<br><br>10.04.2018 |
+| [Skibaan](Alfabet/S/Skibaan/Skibaan.htm)<br><br>Wijziging criteria:<br><br>* Alleen buitenskibanen aangeven als functioneel gebied skibaan.<br>* Ook kabelskibanen voor het beoefenen van de waterskisport intekenen als functioneel gebied skibaan met soortnaam ‘Kabelskibaan’.<br>* Binnenskibanen aangeven als gebouw met soortnaam ‘Skicentrum’, indien er sprake is van een helling of parcours. Rolbanen niet aangeven als Skicentrum.<br><br>22.03.2018 |
+| [Transformatorstation](Alfabet/T/Transformatorstation/Transformatorstation.htm)<br><br>Toevoeging criteria:<br><br>* Stations verbonden met ondergrondse hoogspanningsleidingen worden ook ingetekend als functioneel gebied<br>* Uit de externe bron in het Bronnenboek kun je achterhalen waar de ondergrondse leidingen liggen.<br><br>01.03.2018 |
+
+#### Vragen en/of opmerkingen zijn welkom via de senior of een verbetervoorstel.
+
+Zie hier veranderingen vorige iteraties: [Wijzigingenlog](Wijzigingenlog/Wijzigingenlog.htm).
+
+Zie hier algemene regelgeving tbv de verkenningsvoorschriften: [Algemene regels](Algemene%20regels.htm).
+
+Voor bewerkingen zie [Handleiding voor het wijzigen van de verkenningsvoorschriften](Handleiding.htm).
+
+Versie 2017.1.04
+
+Last updated: 19 april, 2023
+
+\- Ziet u onjuistheden of ontbreekt er informatie op deze pagina? [](mailto:Topografie.Seniors@kadaster.nl)[Klik hier](mailto:Topografie.Seniors@kadaster.nl) om direct een terugmelding te doen! -
