@@ -27,8 +27,7 @@ nav_order: 99
 - Afspraken met DEV-team over beschikbaarheid in de komende (5) jaren
 
 ## Voor het eggie
-# initiele conversie
-
+### Initiële conversie
 - Nieuwe repo aanmaken
 - Inrichten GITea publicatie bij DEV team
 - Plaatsen TOP10help MCF bestanden in repo (voornamelijk voor plaatjes)
