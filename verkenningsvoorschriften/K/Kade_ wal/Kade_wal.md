@@ -1,11 +1,11 @@
 ---
-title: Kade_ wal
+title: Kade wal
 last_modified_date: 19-09-2023
 layout: page
 parent: K
 has_children: false
 ---
 
-Kade_ wal
-=========
+Kade wal
+========
 
