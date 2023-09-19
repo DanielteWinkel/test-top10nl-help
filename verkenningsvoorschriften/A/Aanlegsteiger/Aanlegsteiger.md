@@ -1,6 +1,6 @@
 ---
 title: Aanlegsteiger
-last_modified_date: 13-09-2023
+last_modified_date: 19-09-2023
 layout: page
 grand_parent: Verkenningsvoorschriften
 parent: A
@@ -40,7 +40,7 @@ De minimumlengte geldt niet indien de aanlegsteiger is gelegen in een waterdeel 
 
 ## Voorbeeld in het terrein
 
-![](vv 0017_300x200.jpg)![](vv 0132_300x200.jpg)
+![](vv_0017_300x200.jpg)![](vv_0132_300x200.jpg)
 
 ![](aanlegsteiger2_301x288.jpg)![](aanlegsteiger3_288x288.jpg)
 
