@@ -1,11 +1,12 @@
 ---
-title: Grens _gemeente _provincie _rijk
+title: Grens gemeente provincie rijk
 last_modified_date: 19-09-2023
 layout: page
+grand_parent: Verkenningsvoorschriften
 parent: G
 has_children: false
 ---
 
-Grens _gemeente _provincie _rijk
-================================
+Grens gemeente provincie rijk
+=============================
 

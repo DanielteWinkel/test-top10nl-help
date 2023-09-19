@@ -1,11 +1,12 @@
 ---
-title: Wijk_Sloot of kanaal
+title: Wijk Sloot of kanaal
 last_modified_date: 19-09-2023
 layout: page
+grand_parent: Verkenningsvoorschriften
 parent: W
 has_children: false
 ---
 
-Wijk_Sloot of kanaal
+Wijk Sloot of kanaal
 ====================
 

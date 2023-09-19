@@ -1,11 +1,12 @@
 ---
-title: Stadskantoor_Gemeentekantoor
+title: Stadskantoor Gemeentekantoor
 last_modified_date: 19-09-2023
 layout: page
+grand_parent: Verkenningsvoorschriften
 parent: S
 has_children: false
 ---
 
-Stadskantoor_Gemeentekantoor
+Stadskantoor Gemeentekantoor
 ============================
 
