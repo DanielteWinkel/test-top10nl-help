@@ -130,9 +130,9 @@ ht2txt = os.path.join(scriptplek, 'html2text')
 #       # vervang ' ' door '_'
 #       # vervang ',' door '_'
 #       # vervang '__' door '_' (2 keer uitvoeren)
-#     if '__' in filenaam:
+#     if ' ' in filenaam:
 #         # print(filenaam)
-#         filenaamnew = filenaam.replace("__", "_")
+#         filenaamnew = filenaam.replace(" ", "_")
 #         # print(filenaamnew)
 #         if len(filessplit) == 1:
 #             filenew = os.path.join(dir_in, filenaamnew)
@@ -148,45 +148,26 @@ ht2txt = os.path.join(scriptplek, 'html2text')
 # print(count)
 # # --------------------------------------------------------------------------------------------------------------------------------------------------
 
-# --------------------------------------------------------------------------------------------------------------------------------------------------
-# rename folder: spatie naar underscore
-os.chdir(dir_in)
-count = 0
-# voor de hele alfabetmap:
-for it in os.scandir(dir_in):
-    if it.is_dir():
-        print(it.path)
-for dirs in os.listdir(dir_in):
-    print(dirs)
-    # dir = os.path.join(dir_in, dirs)
-    # # print(file)
-    # # selecteer de bestandsnaam
-    # filessplit = files.split("\\")
-    # if len(filessplit) == 1:
-    #     filenaam = str(files.split("\\")[0])
-    # elif len(filessplit) == 2:
-    #     filenaam = str(files.split("\\")[1])
-    # elif len(filessplit) == 3:
-    #     filenaam = str(files.split("\\")[2])
-    # # print(filenaam)
-    # # in onderstaande volgorde renamen
-    #   # vervang ' ' door '_'
-    #   # vervang ',' door '_'
-    #   # vervang '__' door '_' (2 keer uitvoeren)
-    # if '__' in filenaam:
-    #     # print(filenaam)
-    #     filenaamnew = filenaam.replace("__", "_")
-    #     # print(filenaamnew)
-    #     if len(filessplit) == 1:
-    #         filenew = os.path.join(dir_in, filenaamnew)
-    #     elif len(filessplit) == 2:
-    #         filenew = os.path.join(dir_in, filessplit[0], filenaamnew)
-    #     elif len(filessplit) == 3:
-    #         filenew = os.path.join(dir_in, filessplit[0], filessplit[1], filenaamnew)
-    #     print(file)
-    #     print(filenew)
-    #     count = count + 1
-    #     #os.rename(file, filenew)
+# # --------------------------------------------------------------------------------------------------------------------------------------------------
+# # rename folder: spatie naar underscore
+# os.chdir(dir_in)
+# count = 0
+# # voor de hele alfabetmap:
+# rootdir = dir_in
+# for rootdir, dirs, files in os.walk(rootdir):
+#     for subdir in dirs:
+#         dirnaam = os.path.join(rootdir, subdir)
+#         # # in onderstaande volgorde renamen
+#         #   # vervang ' ' door '_'
+#         #   # vervang ',' door '_'
+#         #   # vervang '__' door '_' (2 keer uitvoeren)
+#         if ' ' in subdir:
+#             print(subdir)
+#             print(dirnaam)
+#             dirnaamnew = dirnaam.replace(" ", "_")
+#             print(dirnaamnew)
+#             count = count + 1
+#             # os.rename(dirnaam, dirnaamnew)
     
 # print(count)
-# --------------------------------------------------------------------------------------------------------------------------------------------------
+# # --------------------------------------------------------------------------------------------------------------------------------------------------
