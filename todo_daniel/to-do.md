@@ -46,5 +46,4 @@ nav_order: 99
 
 ## En als laatste
 - Alle htm en html archiveren (is oude content MCF)
-- Andere overbodige content opruimen (.folder.props, etc.)
-
+- Andere overbodige content opruimen (.folder.props, deze todo, etc.)
