@@ -1,6 +1,6 @@
 ---
 title: To Do
-last_modified_date: 19-09-2023
+last_modified_date: 21-09-2023
 layout: page
 has_children: false
 has_toc: false
@@ -41,9 +41,10 @@ nav_order: 99
 - V Alfabetpagina's juiste kopje met links geven
 - Verwijzingen omzetten van htm (MCF) naar html
 - Tabel alfabetpagina aanpassen naar 5 x 5
-- Snippets omzetten naar content
+
+- Snippets evt. omzetten naar verwijzing (snippet komt niet voor in gepubliceerde  html)
 - Uitklappijltjes omzetten in paragraaf ##
-- Spaties / %20 ook uit links (pagina en plaatjes) in MD files
+- Spaties, %20, verwijzingen naar resources ook uit links (pagina en plaatjes) in MD files
 - etc..
 
 ## En als laatste
