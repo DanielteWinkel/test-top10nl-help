@@ -14,7 +14,7 @@ Akkerland
 
 **Terrein** waar landbouwproducten worden verbouwd.
 
-Zie ook [Vloeiveld](../../V/Vloeiveld/Vloeiveld.htm).
+Zie ook [Vloeiveld](../../V/Vloeiveld/Vloeiveld.html).
 
 ## Regelgeving Topografie
 
