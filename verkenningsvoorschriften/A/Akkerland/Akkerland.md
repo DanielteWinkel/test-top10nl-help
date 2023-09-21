@@ -1,6 +1,6 @@
 ---
 title: Akkerland
-last_modified_date: 19-09-2023
+last_modified_date: 21-09-2023
 layout: page
 grand_parent: Verkenningsvoorschriften
 parent: A
@@ -28,11 +28,15 @@ Vulling van dit attribuut vindt plaats vanuit de externe bron BRP. In dat geval 
 
 ## Voorbeeld in het terrein
 
-![](../../../Resources/Images/Akkerland.jpg)![](../../../Resources/Images/Akkerland-1.jpg)![](../../../Resources/Images/Akkerland-2.jpg)
-
-![](vv_0196_300x200.jpg)![](vv_0229_300x200.jpg)![](vv_0235_300x200.jpg)
-
-![](vv_0259_300x200.jpg)![](vv_0269_300x200.jpg)![](vv_0384_300x200.jpg)
+![](../../../Resources/Images/Akkerland.jpg)
+![](../../../Resources/Images/Akkerland-1.jpg)
+![](../../../Resources/Images/Akkerland-2.jpg)
+![](vv_0196_300x200.jpg)
+![](vv_0229_300x200.jpg)
+![](vv_0235_300x200.jpg)
+![](vv_0259_300x200.jpg)
+![](vv_0269_300x200.jpg)
+![](vv_0384_300x200.jpg)
 
 In onderstaand voorbeeld geeft BRP akkerland aan (bijv. chrysanten, aardbeien- of aspergeplanten), maar het geheel oogt als een boomkwekerij. Hier BRP aanhouden.
 
