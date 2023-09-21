@@ -1,6 +1,6 @@
 ---
 title: Aanlegsteiger
-last_modified_date: 19-09-2023
+last_modified_date: 21-09-2023
 layout: page
 grand_parent: Verkenningsvoorschriften
 parent: A
@@ -10,15 +10,15 @@ has_children: false
 Aanlegsteiger
 =============
 
-### Definitie
+## Definitie
 
 In het water uitstekende brug of pier, gebruikt om personen en goederen aan wal te brengen.
 
 Zie ook het voorbeeld hieronder.
 
-### Regelgeving Topografie
+## Regelgeving Topografie
 
-## Smaller dan 2 meter
+### Smaller dan 2 meter
 
 Wordt aangegeven als inrichtingselement van het type **aanlegsteiger**.
 
@@ -28,7 +28,7 @@ De minimumlengte geldt niet indien de aanlegsteiger is gelegen in een waterdeel 
 
 Een rij onderling verbonden meerpalen wordt aangegeven als aanlegsteiger.
 
-## Breder dan 2 meter
+### Breder dan 2 meter
 
 Wordt aangegeven als terrein van het type landgebruik **aanlegsteiger**.
 

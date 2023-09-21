@@ -1,6 +1,6 @@
 ---
 title: Afrastering
-last_modified_date: 13-09-2023
+last_modified_date: 21-09-2023
 layout: page
 grand_parent: Verkenningsvoorschriften
 parent: A
@@ -10,11 +10,11 @@ has_children: false
 Afrastering
 ===========
 
-### Definitie
+## Definitie
 
 Begrenzing van een terrein in de vorm van een hekwerk.
 
-### Regelgeving Topografie
+## Regelgeving Topografie
 
 Wordt aangegeven als **inrichtingselement** van het type **hekwerk**.
 
