@@ -33,7 +33,7 @@ Combinaties:
 
 Indien een afrastering dwars over een weg loopt en ter plaatse een draaihek, slagboom o.i.d. aanwezig is, wordt alleen bij de hoofd in- en uitgang van het omsloten terrein een wegafsluiter geplaatst. Hierbij wel de regels voor een wegafsluiting toepassen (niet op een O>2). Indien de wegafsluiter niet gegeven wordt, wordt het hek doorgetrokken.
 
-Zie ook [Gaswinning](../../G/Gaswinning/Gaswinning.htm), [Oliewinning](../../O/Oliewinning/Oliewinning.htm), [Wegafsluiting / Wegafsluiter](../../W/Wegafsluiting/Wegafsluiting.htm)
+Zie ook [Gaswinning](../../G/Gaswinning/Gaswinning.html), [Oliewinning](../../O/Oliewinning/Oliewinning.html), [Wegafsluiting / Wegafsluiter](../../W/Wegafsluiting/Wegafsluiting.html)
 
 ## Voorbeeld in het terrein
 
