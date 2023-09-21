@@ -40,9 +40,10 @@ De minimumlengte geldt niet indien de aanlegsteiger is gelegen in een waterdeel 
 
 ## Voorbeeld in het terrein
 
-![](vv_0017_300x200.jpg)![](vv_0132_300x200.jpg)
-
-![](aanlegsteiger2_301x288.jpg)![](aanlegsteiger3_288x288.jpg)
+![](vv_0017_300x200.jpg)
+![](vv_0132_300x200.jpg)
+![](aanlegsteiger2_301x288.jpg)
+![](aanlegsteiger3_288x288.jpg)
 
 ## Voorbeeld in ArcMap
 
