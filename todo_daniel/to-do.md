@@ -41,6 +41,7 @@ nav_order: 99
 - V Alfabetpagina's juiste kopje met links geven
 - Verwijzingen omzetten van htm (MCF) naar html
 - Tabel alfabetpagina aanpassen naar 5 x 5
+- Snippets omzetten naar content
 - Uitklappijltjes omzetten in paragraaf ##
 - Spaties / %20 ook uit links (pagina en plaatjes) in MD files
 - etc..
