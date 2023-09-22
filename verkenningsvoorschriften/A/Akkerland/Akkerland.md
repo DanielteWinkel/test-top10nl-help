@@ -28,7 +28,9 @@ Vulling van dit attribuut vindt plaats vanuit de externe bron BRP. In dat geval 
 
 ## Voorbeeld in het terrein
 
-![](Akkerland.jpg)![](Akkerland-1.jpg)![](Akkerland-2.jpg)
+![](Akkerland.jpg)
+![](Akkerland-1.jpg)
+![](Akkerland-2.jpg)
 ![](vv_0196_300x200.jpg)
 ![](vv_0229_300x200.jpg)
 ![](vv_0235_300x200.jpg)
