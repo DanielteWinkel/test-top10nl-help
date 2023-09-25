@@ -68,3 +68,18 @@ nav_order: 99
 
 
 [![Video](../verkenningsvoorschriften/A/A-Wegnummer/foto_A_wegnummers_125x100.jpg)](WFM.mp4)
+
+
+<!--
+keyword: testje
+keyword: woord
+-->
+
+keyword: afrastering
+
+keyword: hek
+
+keyword: hekwerk
+
+
+zoekwoorden: pizza, pannekoek, patat

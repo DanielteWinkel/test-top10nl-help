@@ -44,12 +44,3 @@ Zie ook [Gaswinning](../../G/Gaswinning/Gaswinning.html), [Oliewinning](../../O/
 ![](vv_0501_300x225.jpg)
 ![](vv_0559_300x225.jpg)
 ![](vv_0600_300x225.jpg)
-
-<!--
-Keyword: afrastering1
-Keyword: hek1
-keyword: hekwerk1
--->
-Keyword: afrastering
-Keyword: hek
-keyword: hekwerk
