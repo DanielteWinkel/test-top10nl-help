@@ -21,7 +21,7 @@ nav_order: 99
 - [x] Automatische acties uitwerken
    - [x] Foldernamen renamen spatie naar underscore
    - [x] Plaatjes renamen spatie naar underscore
-   - [f] Aanmaken MD-files met juiste kop van JustTheDocs
+   - [x] Aanmaken MD-files met juiste kop van JustTheDocs
 - [ ] Afspraken met DEV-team over beschikbaarheid in de komende (5) jaren
 
 ## Voor het eggie
