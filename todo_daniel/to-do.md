@@ -10,16 +10,18 @@ nav_order: 99
 # Leerpunten uit de eerste test die straks nog moeten gebeuren op de gehele TOP10NL-help
 
 ## Onderzoeken
-- Snippets onderzoeken
-  - Als we de gepubliceerde html converteren zijn snippets niet relevant voor de conversie.
-  - Voor bijhouding nadenken om de snippets nog maar op één plek bij te houden (tekst in een snippet staat op één plek, de andere plekken verwijzen daarnaar).
-- Hoe converteren
-  - Automatisch: op welke manier
-  - Handmatig: pagina voor pagina
-- Automatische acties uitwerken
-  - V Foldernamen renamen spatie naar underscore
-  - V Plaatjes renamen spatie naar underscore
-  - V Aanmaken MD-files met juiste kop van JustTheDocs
+- [ ] Snippets gebruik onderzoeken
+- [ ] Keywords gebruik onderzoeken
+- [x] Snippets conversie onderzoeken
+   1. Als we de gepubliceerde html converteren zijn snippets niet relevant voor de conversie.
+   2. Voor bijhouding nadenken om de snippets nog maar op één plek bij te houden (tekst in een snippet staat op één plek, de andere plekken verwijzen daarnaar).
+- [x] Hoe converteren
+   - [ ] Automatisch: op welke manier -> Lastig uit tewerken, winst beperkt
+   - [x] Handmatig: pagina voor pagina
+- [x] Automatische acties uitwerken
+   - [x] Foldernamen renamen spatie naar underscore
+   - [x] Plaatjes renamen spatie naar underscore
+   - [ ] Aanmaken MD-files met juiste kop van JustTheDocs
   
 ## Proces
 - Testdata migreren naar GITea
@@ -54,8 +56,15 @@ nav_order: 99
 - Oude repo nalopen conten "niet vv"
 - Content actualiseren
 
-## Video
+## Handleiding
 
-Zie voor meer info de video
+- Hoe opzetten omgeving
+- Welke software nodig
+- Werken met GITea in branch, Pull-request
+- Markdown voorbeeldpagina
+- Hoe pagina editen
+- Hoe nieuwe pagina maken
+- Toevoegen plaatje en video
+
 
 [![Video](../verkenningsvoorschriften/A/A-Wegnummer/foto_A_wegnummers_125x100.jpg)](WFM.mp4)
