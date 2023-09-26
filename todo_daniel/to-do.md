@@ -1,6 +1,6 @@
 ---
 title: To Do
-last_modified_date: 25-09-2023
+last_modified_date: 26-09-2023
 layout: page
 has_children: false
 has_toc: false
@@ -27,6 +27,7 @@ nav_order: 99
 ## Voor het eggie
 ### Initiële conversie
 - [ ] Nieuwe repo aanmaken
+- [ ] Rechten voor muteerders
 - [ ] Inrichten GITea publicatie bij DEV team
 - [ ] Plaatsen TOP10help MCF bestanden in repo (voornamelijk voor plaatjes)
 - [ ] Automatisch
