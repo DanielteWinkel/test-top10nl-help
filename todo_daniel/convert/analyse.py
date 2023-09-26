@@ -39,20 +39,23 @@ f_out = open(file_snippet_out, 'w')
 f_out.write ("--------------------------------------------------------------------------------------------------------------------------------\n\n")
 f_out.write ("Analyse uitgevoerd op: %s\n\n" % (starttijd))
 f_out.write ("--------------------------------------------------------------------------------------------------------------------------------\n\n")
-f_out.write ("Path en Bestandsnaam;Snippet\n")
+f_out.write ("Bestandsnaam;Snippet compleet;Snippet\n")
 
 os.chdir(dir_in)
 # voor de hele alfabetmap:
 for files in glob.glob("**/*.htm", recursive=True):
     file = os.path.join(dir_in, files)
-    #print(file, end=" ")
+    # print(file, end=" ")
     # invoer bestanden openen
     for regel in fileinput.input(files=[files],openhook=fileinput.hook_encoded("utf-8", "surrogateescape")):
         if "flsnp" in regel:
-            snippet = regel
-            f_out.write ("%s;%s" % (file, snippet))
+            snippet = regel.split("\"")[1]
+            # print(snippet)
+            snip = snippet.split("/")[5]
+            # print(snip)
+            f_out.write ("%s;%s;%s\n" % (files, snippet, snip))
     fileinput.close()
-    #print('  klaar')
+    # print('  klaar')
        
 #sluiten bestanden
 f_out.close()
@@ -68,20 +71,26 @@ f_out = open(file_keyword_out, 'w')
 f_out.write ("--------------------------------------------------------------------------------------------------------------------------------\n\n")
 f_out.write ("Analyse uitgevoerd op: %s\n\n" % (starttijd))
 f_out.write ("--------------------------------------------------------------------------------------------------------------------------------\n\n")
-f_out.write ("Path;Bestandsnaam;Keyword\n")
+f_out.write ("Bestandsnaam;Titel;Keywords\n")
+
+
+# <MadCap:keyword term="Stuw;Doksluis;Keersluis" />Stuw</h1>
+
 
 os.chdir(dir_in)
 # voor de hele alfabetmap:
 for files in glob.glob("**/*.htm", recursive=True):
     file = os.path.join(dir_in, files)
-    #print(file, end=" ")
+    # print(file, end=" ")
     # invoer bestanden openen
     for regel in fileinput.input(files=[files],openhook=fileinput.hook_encoded("utf-8", "surrogateescape")):
         if "MadCap:keyword" in regel:
-            keyword = regel
-            f_out.write ("%s;%s" % (file, keyword))
+            titelplus = regel.split(">")[1]
+            titel = titelplus.split("<")[0]
+            keyword = regel.split("\"")[1]
+            f_out.write ("%s;%s;%s\n" % (files, titel, keyword))
     fileinput.close()
-    #print('  klaar')
+    # print('  klaar')
        
 #sluiten bestanden
 f_out.close()
