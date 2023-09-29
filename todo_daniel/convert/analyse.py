@@ -9,10 +9,13 @@ starttijd = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
 # invoermap opgeven
 # dir_in = r'E:\Daniel\GITea-checkout\dpigi-TOP10NL-help\Top10NL Help Verkenningsvoorschriften\Content'
-dir_in = r'E:\Daniel\GITea-checkout\test-top10nl-help\verkenningsvoorschriften'
+# dir_in = r'E:\Daniel\GITea-checkout\test-top10nl-help\verkenningsvoorschriften'
+dir_in = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\test-top10nl-help\verkenningsvoorschriften'
 
 #uitvoer bestanden opgeven
-dir_out = r'E:\Daniel\GITea-checkout\test-top10nl-help\todo_daniel\convert' #deze repository
+# dir_out = r'E:\Daniel\GITea-checkout\test-top10nl-help\todo_daniel\convert' # deze repository
+dir_out = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\test-top10nl-help\todo_daniel\convert'  # deze repository laptop
+
 filenaam_snippet_out = (starttijd.replace(" ", "_")).replace(":",".") + "_Snippet-analyse" + ".txt"
 filenaam_keyword_out = (starttijd.replace(" ", "_")).replace(":",".") + "_Keyword-analyse" + ".txt"
 file_snippet_out = os.path.join(dir_out, filenaam_snippet_out)
