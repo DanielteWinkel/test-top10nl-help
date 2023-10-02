@@ -102,3 +102,4 @@ f_out.close()
 
 
 # dir_in = r'E:\Daniel\GITea-checkout\dpigi-TOP10NL-help\Top10NL-Help\Content'
+# dir_in = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\dpigi-TOP10NL-help\Top10NL-Help\Content'
