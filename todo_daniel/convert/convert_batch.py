@@ -9,10 +9,10 @@ import fileinput
 dir_in = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\test-top10nl-help\verkenningsvoorschriften'
 datum = "19-09-2023"
 
-# voor markdownify en html2text
-scriptplek = r'C:\Users\winked\AppData\Roaming\Python\Python39\Scripts'
-mkdwn = os.path.join(scriptplek, 'markdownify')
-ht2txt = os.path.join(scriptplek, 'html2text')
+# # voor markdownify en html2text op 
+# scriptplek = r'C:\Users\winked\AppData\Roaming\Python\Python39\Scripts'
+# mkdwn = os.path.join(scriptplek, 'markdownify')
+# ht2txt = os.path.join(scriptplek, 'html2text')
 
 # voor een map (in dit geval alleen hoofdmap A)
 # for files in glob.glob("**/A.htm", recursive=True):
