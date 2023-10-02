@@ -5,7 +5,8 @@ import fileinput
 # De volgorde van deze stappen is belangrijk, voer ze van boven naar beneden uit
 
 # invoermap opgeven
-dir_in = r'E:\Daniel\GITea\test-top10nl-help\verkenningsvoorschriften'
+# dir_in = r'E:\Daniel\GITea\test-top10nl-help\verkenningsvoorschriften'
+dir_in = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\test-top10nl-help\verkenningsvoorschriften'
 datum = "19-09-2023"
 
 # voor markdownify en html2text
