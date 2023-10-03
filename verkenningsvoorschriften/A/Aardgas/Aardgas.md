@@ -10,11 +10,11 @@ has_children: false
 Aardgas
 =======
 
+## Definitie
+
+Zie [Gaswinning](../../G/Gaswinning/Gaswinning.html)
+
 * Exportstation
 * Locatie
 * Gasstation
 * Winning
-
-### Definitie
-
-Zie [Gaswinning](../../G/Gaswinning/Gaswinning.html)
