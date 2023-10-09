@@ -76,10 +76,6 @@ f_out.write ("Analyse uitgevoerd op: %s\n\n" % (starttijd))
 f_out.write ("--------------------------------------------------------------------------------------------------------------------------------\n\n")
 f_out.write ("Bestandsnaam;Titel;Keywords\n")
 
-
-# <MadCap:keyword term="Stuw;Doksluis;Keersluis" />Stuw</h1>
-
-
 os.chdir(dir_in)
 # voor de hele alfabetmap:
 for files in glob.glob("**/*.htm", recursive=True):
@@ -99,7 +95,6 @@ for files in glob.glob("**/*.htm", recursive=True):
 f_out.close()
     
 # --------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 # dir_in = r'E:\Daniel\GITea-checkout\dpigi-TOP10NL-help\Top10NL-Help\Content'
 # dir_in = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\dpigi-TOP10NL-help\Top10NL-Help\Content'

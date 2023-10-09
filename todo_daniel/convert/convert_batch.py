@@ -9,7 +9,7 @@ import fileinput
 dir_in = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\test-top10nl-help\verkenningsvoorschriften'
 datum = "19-09-2023"
 
-# # voor markdownify en html2text op 
+# # voor markdownify en html2text (niet gebruikt)
 # scriptplek = r'C:\Users\winked\AppData\Roaming\Python\Python39\Scripts'
 # mkdwn = os.path.join(scriptplek, 'markdownify')
 # ht2txt = os.path.join(scriptplek, 'html2text')
