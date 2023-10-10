@@ -1,6 +1,6 @@
 ---
 title: J
-last_modified_date: 09-10-2023
+last_modified_date: 10-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
@@ -18,4 +18,7 @@ J
 
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
-| [![](Jachthaven/vv_0021_125x100.jpg)](Jachthaven/Jachthaven.html)<br>[Jachthaven](Jachthaven/Jachthaven.html) | [![](Jaknikker/jaknikker_125x100.jpg)](Jaknikker/Jaknikker.html)<br>[Jaknikker](Jaknikker/Jaknikker.html) | [![](Jeugdherberg/jeugdherberg1_69x100.jpg)](Jeugdherberg/Jeugdherberg.html)<br>[Jeugdherberg](Jeugdherberg/Jeugdherberg.html) | | |
+
+| [![](Jachthaven/vv_0021_125x100.jpg)](Jachthaven/Jachthaven.html)<br>[Jachthaven](Jachthaven/Jachthaven.html)
+| [![](Jaknikker/jaknikker_125x100.jpg)](Jaknikker/Jaknikker.html)<br>[Jaknikker](Jaknikker/Jaknikker.html)
+| [![](Jeugdherberg/jeugdherberg1_69x100.jpg)](Jeugdherberg/Jeugdherberg.html)<br>[Jeugdherberg](Jeugdherberg/Jeugdherberg.html)
