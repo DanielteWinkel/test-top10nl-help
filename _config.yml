@@ -50,6 +50,7 @@ search:
 
 exclude:
   - aantekeningen.md
+  - Top10NL Help Verkenningsvoorschriften
 
 aux_links:
   JustTheDocs: https://just-the-docs.github.io/just-the-docs/
