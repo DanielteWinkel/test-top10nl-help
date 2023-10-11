@@ -1,11 +1,11 @@
 ---
-title: Overige documentatie
+title: Algemene informatie
 last_modified_date: 04-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
 has_toc: false
-nav_order: 100
+nav_order: 1
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -13,5 +13,5 @@ nav_order: 100
 | [M](../M/M.html) | [N](../N/N.html) | [O](../O/O.html) | [P](../P/P.html) | [R](../R/R.html) | [S](../S/S.html) |
 | [T](../T/T.html) | [U](../U/U.html) | [V](../V/V.html) | [W](../W/W.html) | [Z](../Z/Z.html) |
 
-Overige documentatie
-====================
+Algemene informatie
+===================

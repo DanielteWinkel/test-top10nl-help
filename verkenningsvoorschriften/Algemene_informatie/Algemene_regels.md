@@ -1,9 +1,9 @@
 ---
 title: Algemene regels
-last_modified_date: 04-10-2023
+last_modified_date: 11-10-2023
 layout: page
 grand_parent: Verkenningsvoorschriften
-parent: Overige documentatie
+parent: Algemene informatie
 has_children: false
 nav_order: 1
 ---
