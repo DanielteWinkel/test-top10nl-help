@@ -1,6 +1,6 @@
 ---
 title: Akkerland
-last_modified_date: 04-10-2023
+last_modified_date: 11-10-2023
 layout: page
 grand_parent: Verkenningsvoorschriften
 parent: A
@@ -14,17 +14,17 @@ Akkerland
 
 **Terrein** waar landbouwproducten worden verbouwd.
 
-Zie ook [Vloeiveld](../../V/Vloeiveld/Vloeiveld.html).
+### Zie ook
+[Vloeiveld](../../V/Vloeiveld/Vloeiveld.html)
 
 ## Regelgeving Topografie
 
-Wordt aangegeven als **terrein** van het type landgebruik **akkerland**.
-
+Wordt aangegeven als **terrein** van het type landgebruik **akkerland**.<br>
 Indien het akkerland tijdelijk onder water is gezet (bijv. t.b.v. de bollenteelt) worden de wallen en het water genegeerd.
 
 ### Toelichting
 
-Vulling van dit attribuut vindt plaats vanuit de externe bron BRP. In dat geval is het betreffende gebied tijdens het scannen gemaskerd en mag hier niet aan gemuteerd worden.
+> Vulling van dit attribuut vindt plaats vanuit de externe bron BRP. In dat geval is het betreffende gebied tijdens het scannen gemaskerd en mag hier niet aan gemuteerd worden.
 
 ## Voorbeeld in het terrein
 
