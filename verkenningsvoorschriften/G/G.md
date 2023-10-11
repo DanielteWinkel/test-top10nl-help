@@ -4,8 +4,8 @@ last_modified_date: 10-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
-has_toc: false
-nav_order: 1
+has_toc: true
+nav_order: 10
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -15,6 +15,8 @@ nav_order: 1
 
 G
 =
+
+<!--
 
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
@@ -72,3 +74,5 @@ Grenskantoor
 | [![](Groeve/Groeve_125x100.bmp)](Groeve/Groeve.html)<br>[Groeve](Groeve/Groeve.html)
 | [![](../../images/foto-niet-beschikbaar.jpg)](Grondduiker/Grondduiker.html)<br>[Grondduiker](Grondduiker/Grondduiker.html)
 Grondstation
+
+-->

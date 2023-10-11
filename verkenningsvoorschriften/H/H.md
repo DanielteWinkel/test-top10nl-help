@@ -4,8 +4,8 @@ last_modified_date: 10-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
-has_toc: false
-nav_order: 1
+has_toc: true
+nav_order: 10
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -15,6 +15,8 @@ nav_order: 1
 
 H
 =
+
+<!--
 
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
@@ -61,3 +63,5 @@ Hoogte
 | [![](../../images/foto-niet-beschikbaar.jpg)](Hulpsecretarie/Hulpsecretarie.html)<br>[Hulpsecretarie](Hulpsecretarie/Hulpsecretarie.html)
 | [![](Hunebed/Hunebed_125x100.bmp)](Hunebed/Hunebed.html)<br>[Hunebed](Hunebed/Hunebed.html)
 | [![](../../images/foto-niet-beschikbaar.jpg)](Hydrografische_kaarten/Hydrografische_kaarten.html)<br>[Hydrografische kaarten](Hydrografische_kaarten/Hydrografische_kaarten.html)
+
+-->

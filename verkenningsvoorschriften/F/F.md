@@ -4,8 +4,8 @@ last_modified_date: 10-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
-has_toc: false
-nav_order: 1
+has_toc: true
+nav_order: 10
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -15,6 +15,8 @@ nav_order: 1
 
 F
 =
+
+<!--
 
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
@@ -29,3 +31,5 @@ Fietsveer
 | ![](Friese_toponiemen/688_8874_125x100.jpg)<br>[Friese toponiemen](Friese_toponiemen/Friese_toponiemen.html)
 | ![](Fruitkwekerij/PA210048_125x100.jpg)<br>[Fruitkwekerij](Fruitkwekerij/Fruitkwekerij.html)
 | ![](../B/Bungalowpark/vv_0549_125x100.jpg)<br>[Functioneel gebied](Functioneel_gebied/Functioneel_gebied.html)
+
+-->

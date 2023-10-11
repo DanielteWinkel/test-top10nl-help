@@ -4,8 +4,8 @@ last_modified_date: 10-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
-has_toc: false
-nav_order: 1
+has_toc: true
+nav_order: 10
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -16,9 +16,13 @@ nav_order: 1
 J
 =
 
+<!--
+
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
 
 | [![](Jachthaven/vv_0021_125x100.jpg)](Jachthaven/Jachthaven.html)<br>[Jachthaven](Jachthaven/Jachthaven.html)
 | [![](Jaknikker/jaknikker_125x100.jpg)](Jaknikker/Jaknikker.html)<br>[Jaknikker](Jaknikker/Jaknikker.html)
 | [![](Jeugdherberg/jeugdherberg1_69x100.jpg)](Jeugdherberg/Jeugdherberg.html)<br>[Jeugdherberg](Jeugdherberg/Jeugdherberg.html)
+
+-->

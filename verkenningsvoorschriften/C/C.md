@@ -4,8 +4,8 @@ last_modified_date: 10-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
-has_toc: false
-nav_order: 1
+has_toc: true
+nav_order: 10
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -15,6 +15,8 @@ nav_order: 1
 
 C
 =
+
+<!--
 
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
@@ -42,3 +44,5 @@ Chaletpark
 Containerwoning
 | [![](Crematorium/crematorium_125x100.bmp)](Crematorium/Crematorium.html)<br>[Crematorium](Crematorium/Crematorium.html)
 | [![](Crossbaan_-terrein/vv_0035_125x100.jpg)](Crossbaan_-terrein/Crossbaan_-terrein.html)<br>[Crossbaan / Crossterrein](Crossbaan_-terrein/Crossbaan_-terrein.html)
+
+-->

@@ -4,8 +4,8 @@ last_modified_date: 10-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
-has_toc: false
-nav_order: 1
+has_toc: true
+nav_order: 10
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -15,6 +15,8 @@ nav_order: 1
 
 K
 =
+
+<!--
 
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
@@ -81,3 +83,5 @@ Klimtoren
 | [![](Kunstijsbaan/Kunstijsbaan_125x100.bmp)](Kunstijsbaan/Kunstijsbaan.html)<br>[Kunstijsbaan](Kunstijsbaan/Kunstijsbaan.html)
 | [![](../B/Boomkwekerij/vv_0428_125x100.jpg)](Kwekerij/Kwekerij.html)<br>[Kwekerij](Kwekerij/Kwekerij.html)
 | [![](../../images/foto-niet-beschikbaar.jpg)](Kwelder/Kwelder.html)<br>[Kwelder](Kwelder/Kwelder.html)
+
+-->

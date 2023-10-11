@@ -4,8 +4,8 @@ last_modified_date: 10-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
-has_toc: false
-nav_order: 1
+has_toc: true
+nav_order: 10
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -15,6 +15,8 @@ nav_order: 1
 
 M
 =
+
+<!--
 
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
@@ -54,3 +56,5 @@ Mijnsteenberg
 | [![](Museum/museum_125x100.bmp)](Museum/Museum.html)<br>[Museum](Museum/Museum.html) 
 | [![](../S/Spoorbaan/vv_0094_125x100.jpg)](Museumlijn/Museumlijn.html)<br>[Museumlijn](Museumlijn/Museumlijn.html) 
 | [![](Muur/vv_0046_125x100.jpg)](Muur/Muur.html)<br>[Muur](Muur/Muur.html) 
+
+-->

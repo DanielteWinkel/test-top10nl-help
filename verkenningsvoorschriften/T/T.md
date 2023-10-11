@@ -4,8 +4,8 @@ last_modified_date: 10-10-2023
 layout: page
 parent: Verkenningsvoorschriften
 has_children: true
-has_toc: false
-nav_order: 1
+has_toc: true
+nav_order: 10
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -15,6 +15,8 @@ nav_order: 1
 
 T
 =
+
+<!--
 
 |     |     |     |     |     |
 | --- | --- | --- | --- | --- |
@@ -48,3 +50,5 @@ Tjasker
 | [![](Tuincentrum/Tuincentrum_125x100.bmp)](Tuincentrum/Tuincentrum.html)<br>[Tuincentrum](Tuincentrum/Tuincentrum.html)
 | [![](Tuindorp/Tuindorp_125x100.bmp)](Tuindorp/Tuindorp.html)<br>[Tuindorp](Tuindorp/Tuindorp.html)
 | [![](Tunnel/tunnel_125x100.jpg)](Tunnel/Tunnel.html)<br>[Tunnel](Tunnel/Tunnel.html)
+
+-->
