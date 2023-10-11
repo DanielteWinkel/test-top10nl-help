@@ -1,12 +1,12 @@
 ---
-title: Attribuutwaarde
+title: Object
 last_modified_date: 19-09-2023
 layout: page
 grand_parent: Verkenningsvoorschriften
-parent: A
+parent: Algemene informatie
 has_children: false
 ---
 
-Attribuutwaarde
-===============
+Object
+======
 
