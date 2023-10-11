@@ -15,7 +15,6 @@ Aantal sporen
 Attribuutwaarde waarmee het aantal sporen van een **spoorbaan** kan worden aangegeven.
 
 ### Zie ook
-
 [Spoorbaan](../../S/Spoorbaan/Spoorbaan.html)
 
 ## Regelgeving Topografie
