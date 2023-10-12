@@ -60,6 +60,10 @@ aux_links:
 aux_links_new_tab: true
 
 # Footer content: Appears at the bottom of every page's main content.
+# Back to top link
+back_to_top: true
+back_to_top_text: "Terug naar boven"
+
 # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
 footer_content: "Copyright &copy; Kadaster: DPI en GI"
 
