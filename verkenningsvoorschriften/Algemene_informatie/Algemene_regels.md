@@ -31,26 +31,26 @@ Het beeld bij een herziening wordt gevormd door de luchtfoto in combinatie met d
 
 Bij een herziening maken we gebruik van **de Verkenningsvoorschriften** die voor het betreffende jaar van toepassing zijn.
 
-Tijdens de fotointerpretatie moeten zoveel mogelijk gegevens uit de luchtfoto worden gehaald (met ondersteuning van de 360 graden panoramafoto’s).
+Tijdens de fotointerpretatie moeten zoveel mogelijk gegevens uit de luchtfoto worden gehaald (met ondersteuning van de 360 graden panoramafoto's).
 
 De actualiteits-flow is zodanig ingericht dat we daarmee in staat zijn ieder jaar heel Nederland te herzien. Daarnaast vinden er gerichte kwaliteitsacties plaats op basis van bevindingen uit de kwaliteitsmetingen en naar aanleiding van reacties en wensen van klanten. Daarbij wordt de wettelijk voorgeschreven landelijke kwaliteitsnorm van 95% als ondergrens gehanteerd.
 
 ### Gebruik Ortho25
 Scannen van het fotobeeld wordt gedaan op basis van ortho10 beelden. Als op basis van ortho10 beelden wijzigingen in het terrein geconstateerd zijn, maar nog niet volledig en/of met zekerheid zijn in te winnen, mag er gebruik gemaakt worden van ortho25 beelden. In de aandacht annotatie laag wordt de plaats geannoteerd met: "gebruik ortho25", zonder verdere figuratie. De ortho25 wordt dus niet gebruikt voor het opsporen van wijzigingen in het terrein, maar uitsluitend ter verduidelijking van wijzigingen die in de ortho10 al zijn geconstateerd.
 
-### Verschillen tussen Orthofotomozaïek, ESPA-foto’s en cyclorama’s
-Het kan voorkomen dat er verschillen waar te nemen zijn tussen het orthofotomozaïek en de ESPA-foto’s. Meestal zijn deze verschillen veroorzaakt door datumverschillen tussen de foto’s.
+### Verschillen tussen Orthofotomozaïek, ESPA-foto's en cyclorama's
+Het kan voorkomen dat er verschillen waar te nemen zijn tussen het orthofotomozaïek en de ESPA-foto's. Meestal zijn deze verschillen veroorzaakt door datumverschillen tussen de foto's.
 
 Er zijn twee mogelijkheden:
 
-- Buiten je te interpreteren gebied: Dit kan veroorzaakt worden door datumverschil tussen de verschillende bladen. In principe is dit verschil niet erg, het moet namelijk vermeden worden om buiten het te interpreteren gebied te gaan werken. Als dit toch noodzakelijk is, dan zijn de ESPA-foto’s leidend.
+- Buiten je te interpreteren gebied: Dit kan veroorzaakt worden door datumverschil tussen de verschillende bladen. In principe is dit verschil niet erg, het moet namelijk vermeden worden om buiten het te interpreteren gebied te gaan werken. Als dit toch noodzakelijk is, dan zijn de ESPA-foto's leidend.
 - Binnen je te interpreteren gebied: Hier moeten de beelden aan elkaar gelijk zijn. Als dit niet zo is, kan dit veroorzaakt worden door een fout. Meld dit in dat geval bij voorkeur via je Senior.
 
-Tijdsverschillen tussen de luchtfoto’s en de cyclorama’s komen ook voor, zeker indien gewerkt wordt op basis van één jaar oude luchtfoto’s. In dat geval is de luchtfoto leidend en dient deze zoveel mogelijk gevolgd worden ook al laten de cycloramabeelden al een actuelere situatie zien. Bij twijfel overleggen met je senior.
+Tijdsverschillen tussen de luchtfoto's en de cyclorama's komen ook voor, zeker indien gewerkt wordt op basis van één jaar oude luchtfoto's. In dat geval is de luchtfoto leidend en dient deze zoveel mogelijk gevolgd worden ook al laten de cycloramabeelden al een actuelere situatie zien. Bij twijfel overleggen met je senior.
 
 ### Afwijkingen tussen luchtfoto en cyclorama
 - Waar, ten tijde van de luchtfoto-opname, geen wijzigingen in het terrein zichtbaar zijn dient de oude situatie gehandhaafd te worden. Tijdelijke omleidingen van wegen worden niet aangegeven, op deze plaatsen wordt het oorspronkelijke wegenpatroon gehandhaafd. Nieuwe wegen, viaducten en tunnels die op de luchtfoto zichtbaar zijn worden wel gegeven. Een uitzondering hierop kan voorkomen indien uit informatie blijkt dat de tijdelijke situatie een aantal jaren achtereen blijft bestaan. Dit komt met name voor bij grote infrastructurele werkzaamheden aan het autosnelwegnet. Overleg in dit soort gevallen met je Senior, mede omdat dit soort werkzaamheden zich vaak over meerdere bladen uitstrekt.
-- Vrijstaande gebouwen, gelegen binnen de getriggerde gebieden,die nog op de foto staan maar op basis van recentere cyclorama’s inmiddels zijn afgebroken, moeten worden weggenomen. In de aandacht annotatie laag wordt dan een aantekening gemaakt. Een (gedeelte van een) bebouwd oppervlak dat nog op de foto staat maar is afgebroken, wordt gehandhaafd als mag worden aangenomen dat de contouren van het bebouwd oppervlak niet wezenlijk zullen veranderen (bv. bij renovatie, herbouw). Als echter mag worden aangenomen dat de topografie na uitvoering van de nieuwbouw zal afwijken van de oude topografie, moet in dit geval de oude topografie worden weggenomen, waarna in de aandacht annotatie laag de plaats geannoteerd wordt met "in aanbouw", zonder verdere figuratie.
+- Vrijstaande gebouwen, gelegen binnen de getriggerde gebieden,die nog op de foto staan maar op basis van recentere cyclorama's inmiddels zijn afgebroken, moeten worden weggenomen. In de aandacht annotatie laag wordt dan een aantekening gemaakt. Een (gedeelte van een) bebouwd oppervlak dat nog op de foto staat maar is afgebroken, wordt gehandhaafd als mag worden aangenomen dat de contouren van het bebouwd oppervlak niet wezenlijk zullen veranderen (bv. bij renovatie, herbouw). Als echter mag worden aangenomen dat de topografie na uitvoering van de nieuwbouw zal afwijken van de oude topografie, moet in dit geval de oude topografie worden weggenomen, waarna in de aandacht annotatie laag de plaats geannoteerd wordt met "in aanbouw", zonder verdere figuratie.
     
 ### Interpretatieverschillen tussen vorige en huidige herziening
 Het is onmogelijk alle interpretatieverschillen uit te bannen, er blijft altijd een "grijs gebied" bestaan. De topograaf moet hier tijdens de herziening alert op zijn en alleen significante wijzigingen in het terrein aangeven en/of duidelijke fouten in de vorige verkenning herstellen.

@@ -21,11 +21,11 @@ Voor aanlegsteigers gelegen buiten een haven geldt een minimummaat van 50m waarb
 ![](2e_lijns_bebouwing.png)
 ![](2e_lijns_bebouwing-2.png)
 
-### Bebouwing – Type gebouw
+### Bebouwing - Type gebouw
 
 ![](Bebouwing_type_gebouw.png)
 
-### Bebouwing – Dok
+### Bebouwing - Dok
 
 ![](../../D/Dok_en_Droogdok/Dok.png)
 
@@ -79,11 +79,11 @@ Bomenrij langs straat mag indien de bomenrij gelegen is in een park of plantsoen
 
 ![](../../P/Parkeerterrein/voorbeeld_weg_over_parkeerplaats_652x479.png)
 
-### Weg – O>2
+### Weg - O>2
 
 ![](O2.jpg)
 
-### Weg – Voetpad
+### Weg - Voetpad
 
 ![](../../V/Voetpad/Voetpad.png)
 
@@ -103,11 +103,11 @@ Bomenrij langs straat mag indien de bomenrij gelegen is in een park of plantsoen
 
 ![](../../R/Rotonde/Rotonde.png)
 
-### Bestaande bebouwing – NIET aanpassen:
+### Bestaande bebouwing - NIET aanpassen:
 
 ![](bestaande_bebouwing_NIET_aanpassen_800x700.png)
 
-### Bestaande bebouwing – WEL aanpassen:
+### Bestaande bebouwing - WEL aanpassen:
 
 ![](bestaande_bebouwing_WEL_aanpassen_800x700.png)
 
@@ -115,7 +115,7 @@ Bomenrij langs straat mag indien de bomenrij gelegen is in een park of plantsoen
 
 ![](../../W/Wegenclassificaties/Wegclassificatie_regionale_weg.JPG)
 
-### Bijzondere situatie – Brug / Vonder
+### Bijzondere situatie - Brug / Vonder
 
 In onderstaande situatie is het validatie technisch niet mogelijk om dit juist in te tekenen, daarom is hiervoor de volgende oplossing gekozen:
 
@@ -125,7 +125,7 @@ In onderstaande situatie is het validatie technisch niet mogelijk om dit juist i
 
 ![](Brug_vonder.png)
 
-### Bijzondere situatie – Zwevende hartlijn
+### Bijzondere situatie - Zwevende hartlijn
 
 De vulling van de zwevende hartlijn in onderstaand plaatje wordt bepaald door de weglijn die in het verlengde ervan ligt (ongeacht voorkomen van het terrein ter plaatse van de zwevende hartlijn), in dit geval dus OW3.
 
@@ -133,7 +133,7 @@ Een uitzondering hierop kan gemaakt worden als het hoofdverkeersgebruik niet ove
 
 ![](Zwevende_hartlijn.png)
 
-### Weg – Rijstrook
+### Weg - Rijstrook
 
 Rijstrookvermelding bij Op-/Afritcombi en bij wegsplitsing.
 
@@ -141,6 +141,6 @@ Van belang is de wegmarkering (lijnen of blokken), die aangeeft of er sprake is 
 
 ![](Rijstrook.png)
 
-### Bebouwing – Chalet – Stacaravan
+### Bebouwing - Chalet - Stacaravan
 
 ![](../../S/Stacaravan/Bebouwing_Chalet_Stacaravan.jpg)
