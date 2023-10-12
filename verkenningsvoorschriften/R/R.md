@@ -39,7 +39,7 @@ Recreatiekern
 | [![](../B/Bebouwing/vv_0535_125x100.jpg)](Reddingboothuisje/Reddingboothuisje.html)<br>[Reddingboothuisje](Reddingboothuisje/Reddingboothuisje.html)
 Reddinghuisje
 | [![](../../images/foto-niet-beschikbaar.jpg)](Registratief_gebied/Registratief_gebied.html)<br>[Registratief gebied](Registratief_gebied/Registratief_gebied.html)
-| [![](../../images/foto-niet-beschikbaar.jpg)](Reliëf/Reliëf.html)<br>[Reliëf](Reliëf/Reliëf.html)
+| [![](../../images/foto-niet-beschikbaar.jpg)](Relief/Relief.html)<br>[Reliëf](Relief/Relief.html)
 | [![](../B/Bebouwing_met_religieuze_bestemming/vv_0527_125x100.jpg)](Religieus_gebouw/Religieus_gebouw.html)<br>[Religieus gebouw](Religieus_gebouw/Religieus_gebouw.html)
 Religieus_object
 | [![](../../images/foto-niet-beschikbaar.jpg)](Remise/Remise.html)<br>[Remise](Remise/Remise.html)
@@ -58,7 +58,7 @@ Religieus_object
 | [![](Rotonde/weg_rotonde_125x100.jpg)](Rotonde/Rotonde.html)<br>[Rotonde](Rotonde/Rotonde.html)
 | [![](Rozenstruikenkwekerij/Rozenstruikenkwekerij_125x100.bmp)](Rozenstruikenkwekerij/Rozenstruikenkwekerij.html)<br>[Rozenstruikenkwekerij](Rozenstruikenkwekerij/Rozenstruikenkwekerij.html)
 | [![](Ruilverkaveling/Ruilverkaveling_125x100.bmp)](Ruilverkaveling/Ruilverkaveling.html)<br>[Ruilverkaveling](Ruilverkaveling/Ruilverkaveling.html)
-| [![](Ruïne/Ruïne_125x100.bmp)](Ruïne/Ruïne.html)<br>[Ruïne](Ruïne/Ruïne.html)
+| [![](Ruine/Ruine_125x100.bmp)](Ruine/Ruine.html)<br>[Ruïne](Ruine/Ruine.html)
 | [![](Ruiterpad/vv_0564_125x100.jpg)](Ruiterpad/Ruiterpad.html)<br>[Ruiterpad](Ruiterpad/Ruiterpad.html)
 
 -->

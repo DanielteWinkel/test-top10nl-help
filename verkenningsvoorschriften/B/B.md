@@ -39,7 +39,7 @@ Bebouwing_ondergronds
 | [![](Begraafplaats/vv_0144_124x93.jpg)](Begraafplaats/Begraafplaats.html)<br>[Begraafplaats](Begraafplaats/Begraafplaats.html)
 | [![](Bomenrij/vv_0108_125x100.jpg)](Begroeiing_en_bebouwing/Begroeiing_en_bebouwing.html)<br>[Begroeiing en bebouwing](Begroeiing_en_bebouwing/Begroeiing_en_bebouwing.html)
 | [![](Bejaardencentrum/Bejaardencentrum_125x100.jpg)](Bejaardencentrum/Bejaardencentrum.html)<br>[Bejaardencentrum](Bejaardencentrum/Bejaardencentrum.html)
-| [![](Belvédère/Belvédère_125x100.bmp)](Belvédère/Belvédère.html)<br>[Belvédère](Belvédère/Belvédère.html)
+| [![](Belvedere/Belvedere_125x100.bmp)](Belvedere/Belvedere.html)<br>[Belvédère](Belvedere/Belvedere.html)
 Berg
 | [![](Berm/vv_0464_125x100.jpg)](Berm/Berm.html)<br>[Berm](Berm/Berm.html)
 | [![](Bermsloot/vv_0401_125x100.jpg)](Bermsloot/Bermsloot.html)<br>[Bermsloot](Bermsloot/Bermsloot.html)

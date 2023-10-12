@@ -39,7 +39,7 @@ Watermolen
 | [![](../../images/foto-niet-beschikbaar.jpg)](Waterzuiverings-installatie/Waterzuiverings-installatie.html)<br>[Waterzuiveringsinstallatie](Waterzuiverings-installatie/Waterzuiverings-installatie.html)
 | [![](Weg/weg_125x100.bmp)](Weg/Weg.html)<br>[Weg](Weg/Weg.html)
 Weg_achter_boerderij
-Weg_Geïntegreerd
+Weg_Geintegreerd
 Weg_in_aanleg
 Weg_in_ontwerp
 Weg_in_tunnel
