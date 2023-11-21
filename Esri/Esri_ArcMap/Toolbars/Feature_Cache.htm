@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1545" MadCap:lastWidth="948">
+    <head>
+    </head>
+    <body>
+        <h1>Feature Cache</h1>
+        <p>
+            <img src="Toolbars/Table of Contents/Feature Cache.png" class="Thumbnail" />
+        </p>
+        <p>Als je met data werkt die is opgeslagen in een geodatabase kan het maken van de map cache de snelheid van ArcMap taken verhogen.
+Met de map cache kun je tijdelijk objecten in de actieve extent in het interne geheugen van je computer opslaan. Omdat het raadplegen van objecten in het lokale geheugen heel snel gaat, kan het gebruik van de feature cache de prestaties vaak verbeteren.</p>
+        <p>&#160;</p>
+        <p>
+ 
+De feature cache slaat alleen objecten uit een geodatabase op, dus geen data van rasters. De feature cache is het meest effectief als je binnen een bepaald gebied gaat werken. Bijvoorbeeld, als je werkt met data over een netwerk die opgeslagen is in een multiuser database. Objecten in de actieve extent moeten opgehaald worden uit die database elke keer dat je het beeld ververst. Het gebruik van de feature cache kan de belasting van het netwerk verminderen, omdat ArcMap de objecten uit het interne geheugen (RAM) van je computer haalt. Omdat objecten opgeslagen zijn aan de cliënt kant, vermindert het aantal bevragingen van de server.
+Het tekenen van complexe datasets, labeling, bewerken, selecteren en het ophalen van dezelfde objecten voor meerdere lagen in de kaart zijn activiteiten die kunnen profiteren van de feature cache. Labeling bijvoorbeeld kan soms een traag proces zijn voor de database, omdat het nodig is dat de database meerdere keren geraadpleegd wordt voor het plaatsen van vele labels in de kaart.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <h3>Het gebruik van de feature cache tools</h3>
+        <p>ArcMap heeft tools om je te helpen met het opbouwen van de feature cache. Deze tools kun je vinden in de Feature Cache toolbar. Je kunt een feature cache aanmaken door op de knop Build Map Cache te klikken <img src="Toolbars/Feature Cache/image12.png" />. Je kunt ook de automatische cache gebruiken om de cache op te bouwen zodra je het beeld in de extent verandert. De automatische cache kan nuttig zijn als je in verschillende gebieden werkt en je niet elke keer handmatig een cache wilt opbouwen. Omdat het automatisch opbouwen van de cache de prestaties kan hinderen is het verstandig om een minimum schaal in te stellen. Als je bijvoorbeeld de minimum schaal instelt op 1:5000 en je zoomt in tot 1:4500 zal de feature cache automatisch worden aangemaakt. Als je uitzoomt tot 1:7500 zal de cache niet gemaakt worden.</p>
+        <p>&#160;</p>
+        <h3>Maximaliseer de prestaties van de feature cache</h3>
+        <p>Als je met een enterprise database werkt, zoals we dat bij het Kadaster doen, kan het consequent gebruik maken van de feature cache de prestaties enorm verbeteren doordat het aantal raadplegingen van de database afneemt en de daarmee ook het netwerkverkeer.</p>
+        <p>Het gebruik van de feature cache op een personal database heeft minder voordelen. Wel als je objecten met heel veel punten zichtbaar in de extent zichtbaar hebt en snapping gebruikt. Als je alleen maar veel zoomt in een groot gebied heb je niet zoveel voordelen van de feature cache...</p>
+        <p>&#160;</p>
+        <h1>Hoe werk je met de feature cache</h1>
+        <p>Open de Feature Cache toolbar: </p>
+        <p>
+            <img src="Toolbars/Feature Cache/Feature Cache.gif" class="Thumbnail" />
+        </p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Een feature cache maken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Pan of zoom naar het gebied waarin je wil werken</p>
+                    </li>
+                    <li>
+                        <p>Klik de knop Build Feature Cache <img src="Toolbars/Feature Cache/image12.png" />. De objecten in de extent worden in het interne geheugen van je computer geplaatst.</p>
+                    </li>
+                </ol>
+                <p>&#160;</p>
+                <div class="Alert" style="clear: left;">
+                    <ul>
+                        <li>Omdat de feature cache is opgeslagen in het interne geheugen van je computer kan het maken van een cache met veel objecten veel geheugen vragen en kan het ook lang duren. Je kunt tijdens het maken van de cache op de ESC knop drukken om het proces te onderbreken.</li>
+                        <li>Je kunt op ieder moment snel naar de feature cache extent terugkeren door de knop Zoom To Map Cache   <img src="Toolbars/Feature Cache/Map_cache_Zoom_to.png" />te klikken.</li>
+                        <li>Je kunt op de knop Show Map Cache <img src="Toolbars/Feature Cache/Map_cache_Show_red.png" /> klikken om het gebied van de actieve cache zichtbaar te maken. Je maakt alleen gebruik van de feature cache als de knop Show Map Cache groen is. Als de knop rood wordt betekent dit dat je gedeeltelijk buiten het gebied bent en geen gebruik meer maakt van de cache. Als de knop uitgegrijsd is ben je geheel buiten het gebied.</li>
+                        <li>Als een gedeelte van je huidige extent buiten de cache valt, wordt de cache niet meer gebruikt. Om de cache weer te gebruiken moet je hem opnieuw opbouwen of de automatische cache inschakelen.</li>
+                        <li>Om de cache te legen klik je op de knop Empty Map Cache <img src="Toolbars/Feature Cache/Map_cache_Empty.png" />.</li>
+                    </ul>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>De minimum schaal instellen voor de automatische cache</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Zoom in of uit naar de schaal waarop je gaat werken</li>
+                    <li>Klik de knop Set Auto-Cache Scale <img src="Toolbars/Feature Cache/image13.png" />.</li>
+                </ol>
+                <div class="Alert" style="clear: left;">
+                    <ul>
+                        <li>Als je het afgebeelde gebied in de extent wijzigt en je bent nog steeds in het gebied dat in de cache zit, wordt de cache niet opnieuw opgebouwd. Als het afgebeelde gebied niet geheel in de cache zit, zal de cache weer automatisch worden opgebouwd, ten minste als je niet bent uitgezoomd buiten de minimum schaal.</li>
+                        <li>Om te voorkomen dat je niet van de gehele database een cache maakt is het verstandig een minimum schaal in te stellen. De cache wordt dan niet automatisch opgebouwd.</li>
+                    </ul>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Automatische cache opties instellen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Ga naar de Data Frame Properties</li>
+                    <li>Selecteer het tabblad Map Cache</li>
+                    <li>Vink de optie Automatically create feature cache aan</li>
+                    <li>Vink de optie Set minimum scale for auto-cache aan</li>
+                    <li>Geef een minimum schaal op</li>
+                    <li>Klik OK</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>De minimum schaal voor de automatische cache wissen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Klik op de knop Clear Auto-Cache Scale <img src="Toolbars/Feature Cache/Map_cache_Clear_auto_cache_Scale.png" />.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Het gebied bekijken dat in de cache zit</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Klik de knop Show Map Cache. Het gebied dat in de cache zit wordt flitsend zichtbaar gemaakt in de extent.</p>
+                        <p>Als de knop Show Map Cache groen is <img src="Toolbars/Feature Cache/Map_cache_Show_green.png" /> gebruik je de feature cache.</p>
+                        <p>Als de knop Show Map Cache rood is <img src="Toolbars/Feature Cache/Map_cache_Show_red.png" /> is een deel van het gebied in de extent niet opgenomen in de cache.</p>
+                        <p>Als de knop niet beschikbaar is (uitgegrijsd) <img src="Toolbars/Feature Cache/Map_cache_Show_disabled.png" /> is het afgebeelde gebied in z’n  geheel niet in de cache opgenomen</p>
+                    </li>
+                    <li>
+                        <p>Optioneel, als je van plan bent om toch in het afgebeelde gebied te gaan werken, maak dan opnieuw de cache aan op zet de automatische cache aan.</p>
+                    </li>
+                </ol>
+                <div class="Alert" style="clear: left;">
+                    <ul>
+                        <li>De knop Show Map Cache is alleen toegankelijk als je een feature cache heb aangemaakt en het afgebeelde gebied in de extent overlapt met het gebied in de cache.</li>
+                        <li>Als een deel van het afgebeelde gebied in de extent buiten het gebied van de cache valt maak je geen gebruik meer van de cache. Om wel weer gebruik te maken van de cache moet je deze opnieuw opbouwen, de automatische cache inschakelen of terug gaan naar het gebied dat in de cache zit.</li>
+                        <li>Je kunt snel naar het gebied van de cache gaan door de knop Zoom to Map Cache <img src="Toolbars/Feature Cache/Map_cache_Zoom_to.png" />  te klikken</li>
+                    </ul>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
