@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1506" MadCap:lastWidth="948">
+    <head>
+        <link href="../Resources/TableStyles/Kadaster 2016 Tabel.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Geometry Wizard</h1>
+        <p>
+            <img src="Toolbars/Toolbars/Top10NL Editing/Editing_geometry_wizard.png" /> Met de GeometryWizard is het mogelijk om objecten die elkaar overlappen automatisch aan te passen zodat deze voldoen aan diverse geometrie- en attribuutregels. Voor dit proces wordt ook de term ‘stansen’ gebruikt, aangezien objecten zich uitsnijden uit andere objecten om de geometrieën passend te krijgen. Het doel is om één of meer geselecteerde objecten slim in te voegen in een bestaande situatie. D.w.z onderliggende objecten worden versneden en attributen aangepast volgens opgestelde regels.</p>
+        <p>De genoemde tools staan op de toolbar <MadCap:xref href="Toolbars/Top10NL Editing.htm">Top10NL Editing</MadCap:xref>. </p>
+        <p>&#160;</p>
+        <p>Bij het invoegen zijn de volgende objecttypes betrokken: <img src="Geometry Wizard/TB_edit_stanser_1.png" class="Thumbnail" /></p>
+        <p>&#160;</p>
+        <p>Voordat je de tool gebruikt zorg ervoor dat de attributen fysiek voorkomen en status van het in te voegen object goed zijn ingesteld, zoals 'op brug' of 'in tunnel'. Deze attributen zijn in veel gevallen bepalend voor het resultaat.Bij het invoegen wordt rekening gehouden met de waardes van o.a. de kenmerken:</p>
+        <ul>
+            <li>fysiek voorkomen</li>
+            <li>type</li>
+            <li>landgebruik</li>
+            <li>hoogteniveau</li>
+        </ul>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>Er wordt dan ook vanuit gegaan dat genoemde kenmerken reeds van de juiste waarden zijn voorzien voordat gebruik gemaakt wordt van de Geometry Wizard. Objecten worden onderling versneden indien de waarde van het kenmerk hoogteniveau, mits aanwezig, van beide objecten gelijk is</p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Algemene werking</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>Klik de <i>Edit</i> tool: <img src="Toolbars/Toolbars/Top10NL Editing/Editing_edit_tool.png" /></p>
+                    </li>
+                    <li>
+                        <p>Selecteer 1 of meer objecten die je wil 'stansen': <img src="Geometry Wizard/GeometryWizard_select.png" class="Thumbnail" />, 2 kruisende wegen</p>
+                    </li>
+                    <li>
+                        <p>Klik de GeometryWizard knop: <img src="Toolbars/Toolbars/Top10NL Editing/Editing_geometry_wizard.png" /></p>
+                    </li>
+                    <li>
+                        <p>Even wachten</p>
+                    </li>
+                    <li>
+                        <p>Het resultaat: <img src="Geometry Wizard/GeometryWizard_result.png" class="Thumbnail" />, 4 wegvlakken en een kruisingsvlak</p>
+                    </li>
+                </ol>
+                <p>&#160;</p>
+                <p>Als de <i>GeometryWizard</i> wordt gestart worden de volgende stappen uitgevoerd:</p>
+                <ol>
+                    <li>Sorteren van de geselecteerde objecten volgens de volgorde van te stansen objectklassen</li>
+                    <li>Geselecteerde objecten doorlopen<p>Voor ieder geselecteerd object:</p><ul><li>Selecteren van alle objecten die een overlap hebben met het geselecteerde object.</li><li>Overlappende objecten doorlopen.</li><li>Voor ieder overlappend object, afhankelijk van de geometrische relatie, worden er 1 of meerdere stansregels gezocht en indien aanwezig toegepast op zowel het geselecteerde object als het overlappende object.</li><li>Doorlopen van de interne lijst met ‘stansobjecten’ en alle wijzigingen in de database wegschrijven.</li></ul></li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <h3>Abstract voorbeeld 1: <img src="Geometry Wizard/TB_edit_stanser_avb1.png" class="Thumbnail" /> en Concrete invulling: <img src="Geometry Wizard/TB_edit_stanser_cvb1.png" class="Thumbnail" />.</h3>
+        <p>&#160;</p>
+        <h3>Abstract voorbeeld 2: <img src="Geometry Wizard/TB_edit_stanser_avb2.png" class="Thumbnail" /> en Concrete invulling: <img src="Geometry Wizard/TB_edit_stanser_cvb2.png" class="Thumbnail" /></h3>
+        <p>&#160;</p>
+        <p>Objecten kunnen elkaar op verschillende manieren overlappen: <img src="Geometry Wizard/TB_edit_stanser_overlap_vb1.png" class="Thumbnail" /></p>
+        <p>&#160;</p>
+        <p>Tijdens het 'stansen' wordt een dialoog getoond met de voortgang van het proces. De voortgang wordt in 2 fasen getoond, de eerste fase betreft het stansen van de geselecteerde objecten, de tweede fase betreft het wegschrijven van alle wijzigingen in de database: <img src="Geometry Wizard/GeometryWizard_voortgang.png" class="Thumbnail" /></p>
+        <p>In de dialoog is het mogelijk om het proces af te breken door de Cancel knop te gebruiken. In dat geval wordt er gestopt en blijft de database ongewijzigd.</p>
+        <p>&#160;</p>
+        <p>De <i>GeometryWizard</i> leest uit een stuurbestand welke regels moeten worden gebruikt. Deze regels bevatten informatie over objectklassen (wegvlak, weglijn, waterlijn, etc.), attributen en <MadCap:toggler targets="geometrische relaties">geometrische relaties (zie voorbeelden)</MadCap:toggler>.</p>
+        <p>Die regels zijn beschreven in de <MadCap:xref href="Geometry Wizard Regels.htm">Geometry Wizard Regels</MadCap:xref>.</p>
+        <div MadCap:targetName="geometrische relaties">
+            <p>&#160;</p>
+            <h3><a name="geometrische_relaties"></a>geometrische relaties</h3>
+            <table class="TableStyle-Kadaster_2016_Tabel" style="mc-table-style: url('../Resources/TableStyles/Kadaster 2016 Tabel.css');" cellspacing="0">
+                <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+                <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-Kadaster_2016_Tabel-Head-Header1">
+                        <th class="TableStyle-Kadaster_2016_Tabel-HeadE-Column1-Header1" style="text-align: left;">
+                            <p>Geometrische relatie</p>
+                        </th>
+                        <th class="TableStyle-Kadaster_2016_Tabel-HeadD-Column1-Header1" style="text-align: left;">
+                            <p>Voorbeelden</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                        <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                            <p>Over</p>
+                        </td>
+                        <td class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1">
+                            <img src="Geometry Wizard/GeometryWizard_over1.png" class="Thumbnail" />
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                        <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                            <p>Gedeeltelijk over</p>
+                            <p>
+Gedeeltelijk binnen</p>
+                        </td>
+                        <td class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1">
+                            <img src="Geometry Wizard/GeometryWizard_gedeeltelijk-over.png" class="Thumbnail" />
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                        <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                            <p>Raakt
+</p>
+                            <p>Geraakt door</p>
+                        </td>
+                        <td class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1">
+                            <img src="Geometry Wizard/GeometryWizard_raakt.png" class="Thumbnail" />
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                        <td class="TableStyle-Kadaster_2016_Tabel-BodyB-Column1-Body1">
+                            <p>Binnen
+</p>
+                            <p>Bevat</p>
+                        </td>
+                        <td class="TableStyle-Kadaster_2016_Tabel-BodyA-Column1-Body1">
+                            <img src="Geometry Wizard/GeometryWizard_binnen.png" class="Thumbnail" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>&#160;</p>
+        <div class="Alert">
+            <p>Gebruik deze tool met enige zorgvuldigheid. Selecteer nooit teveel objecten tegelijkertijd om ongewenste resultaten te voorkomen!</p>
+        </div>
+        <p>&#160;</p>
+    </body>
+</html>

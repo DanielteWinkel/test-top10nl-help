@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="900" MadCap:lastWidth="1092">
+    <head>
+    </head>
+    <body>
+        <h1>Map topologie</h1>
+        <h3>Over het maken van map topology</h3>
+        <p>Map topology maakt topologische relaties aan tussen delen van objecten die samenvallen (coincident = dezelfde ruimte delen). Je kunt de objectklassen opgeven die mee moeten doen. Je kunt ook een afstand opgeven, clustertolerantie genaamd, die aangeeft hoe dicht punten bij elkaar moeten liggen om op elkaar gelegd te worden.  Als je map topology aanmaakt wordt de clustertolerantie gebruikt om te bepalen welke delen van de objecten samenvallen en welke segmenten (edges) en knooppunten (nodes) worden gedeeld.</p>
+        <p>Er zijn twee stappen voor het maken van map topology:</p>
+        <ol>
+            <li>Geef aan welke feature classes (kaartlagen) mee moeten doen in de topology.</li>
+            <li>Specificeer een cluster tolerantie. De cluster tolerantie is de afstand waarbinnen objecten samenvallen. In de geodatabase topology is een waarde van 15 cm ingesteld en is dus ook een goede waarde voor de map topology.</li>
+        </ol>
+        <p>&#160;</p>
+        <p>Als je map topology hebt gedefinieerd is dat zichtbaar in de Topology lijst als &lt;Map Layers&gt;. Je kunt maar 1 map topology definiëren tijdens een edit sessie.</p>
+        <p>&#160;</p>
+        <h3>Map topology versus geodatabase topology</h3>
+        <p>Een geodatabase topology bevat een set van regels die de relatie beschrijven tussen objecten in een objectklasse. Geodatabase topology wordt gemaakt in ArcCatalog en kan in ArcMap als een kaartlaag (layer) worden toegevoegd, net als andere data. Nadat je bewerkingen op objecten hebt uitgevoerd valideer je de database topologie om overtredingen van de regels op te sporen. Fouten kun je oplossen of als uitzondering markeren.</p>
+        <p>&#160;</p>
+        <p>Map topology is tijdelijk en bestaat alleen tijdens de duur van een edit sessie. In tegenstelling tot geodatabase topology wordt map topology niet permanent in de database opgeslagen of weergegeven als een kaartlaag. Map topology kent geen regels en kent geen validatieproces. De tools voor valideren en oplossen van geodatabase topology zijn uitgegrijsd als je met map topology werkt.</p>
+        <p>&#160;</p>
+        <h3>Wanneer gebruik je map topology</h3>
+        <p>Map topology is handig als je topologische veranderingen wilt uitvoeren in situaties waarin je geen database topology kunt toepassen.</p>
+        <p>&#160;</p>
+        <h3>Werken met map topology</h3>
+        <p>Nadat je map topology hebt aangemaakt kun je de Topology Edit tool gebruiken om gedeelde edges en nodes van objecten te wijzigen. Wijzigen van een edge of node die door meerdere objecten wordt gedeeld geeft als resultaat meerdere gewijzigde objecten. Je geeft geen regels op voor map topology. Alle edges of punten van objecten in de map topology die binnen de clustertolerantie vallen worden beschouwd als zijnde topologisch gedeeld. Omdat er geen topologieregels zijn is er geen noodzaak om map topology te valideren en er worden dus ook geen fouten gevonden.</p>
+        <p>Op geometrieniveau gaat topologie over simpele relaties, zoals samenvallen, bedekken en snijden, tussen geometrieën (punten, lijnen en vlakken). Terwijl alle eenvoudige geometrieën meedoen, wordt tijdens topologie wijzigingen alleen gereageerd op:</p>
+        <ul>
+            <li>Edges—lijnsegmenten die lijnen of vlakken definiëren.</li>
+            <li>Nodes—eindpunten van lijnsegmenten.</li>
+            <li>Pseudonodes—een knooppunt die 2 lijnsegmenten verbindt of een logische opdeling (logical split) gedefinieerd in de topologie buffer (topology cache) tijdens bewerken. Pseudonodes van ondergeschikte soort worden tussenpunten na bewerken.</li>
+        </ul>
+        <p>&#160;</p>
+        <h3>Map topology aanmaken</h3>
+        <ol>
+            <li>Start een edit sessie.</li>
+            <li>Klik de Map topology knop <img src="../Toolbars/Toolbars/Top10NL Editing Environment/Topology_MapTopology.gif" />  in de Topology toolbar.</li>
+            <li>Vink de objectklassen aan die mee moeten doen in de map topology.</li>
+            <li>Alle objectklassen in de actieve edit sessie, behalve annotatie en maatvoering, kunnen meedoen en zijn zichtbaar in het dialoogvenster.</li>
+            <li>
+                <p>Optioneel, stel een cluster tolerantie in van 0.15 mtr.</p>
+                <p>De standaard cluster tolerantie is de kleinst mogelijke cluster tolerance. Het vergroten van de cluster tolerantie kan leiden tot het samenvoegen van meer objecten die als samenvallend worden beschouwd, maar kan onnauwkeurigheden in de hand werken.</p>
+            </li>
+            <li>Klik OK.</li>
+            <li>Klik de <i>Topology Edit tool </i><img src="../Toolbars/Toolbars/Top10NL Editing/Topology_topology_edit_tool.png" /> en selecteer de gezamenlijke geometrie van de objecten die je wil bewerken. De map topology wordt aangemaakt voor de objecten die zichtbaar zijn in de extend.</li>
+        </ol>
+        <p>&#160;</p>
+        <p>Voor nog meer informatie zie de help van ArcMap, trefwoord "topology”</p>
+    </body>
+</html>

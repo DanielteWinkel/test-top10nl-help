@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="5317" MadCap:lastWidth="620" MadCap:conditions="Kadaster b.Content aanvullen">
+    <head>
+    </head>
+    <body>
+        <h1>Instellingen</h1>
+        <p MadCap:conditions="Kadaster b.NietPublishen;opmerking">Dit kan later onderzocht en toegespitst worden.</p>
+        <p>Voor je begint met objecten bewerken is het verstandig enkele dingen in te stellen.</p>
+        <p>&#160;</p>
+        <MadCap:dropDown MadCap:conditions="Kadaster b.Content aanvullen">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Arcatalog instellingen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h3>&#160;</h3>
+                <h3>Default database instellen</h3>
+                <p>Er moet gecontroleerd worden of de Top10NL-productie-database is ingesteld als “default database”, om te kunnen werken met de Workflow Manager.</p>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>Ga naar het Start menu, klik op All Programs en klik op ArcGIS -&gt; ArcCatalog10.1</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/1b-startArcCatalog10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>2</p>
+                            </td>
+                            <td>
+                                <p>ArcCatalog wordt gestart. Ga in de Catalog Tree naar Workflow Manager Databases -&gt; TTNL_WP
+Klik rechts en controleer of er vinkje staat voor Set as default database.</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/1c-ArcCatalog10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>3</p>
+                            </td>
+                            <td>
+                                <p>Mocht dit niet het geval zijn, dan moet tijdelijk de Workflow Manager extensie aangezet worden om de Set-as-default-database-optie te enable-n. Zoals je ziet is deze nu disabled (uitgegrijsd).
+</p>
+                                <p>Ga in de menubar naar Customize -&gt; Extensions…</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/1d-ArcCatalog10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>4</p>
+                            </td>
+                            <td>
+                                <p>Open Arcatalog en onder Customize en dan extensions, zet een vinkje bij de workflow manager en sluit het venster weer (<b>Close</b>).</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/1e-ArcCatalog10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>5</p>
+                            </td>
+                            <td>
+                                <p>Ga opnieuw in de Catalog Tree naar Workflow Manager Databases -&gt; TTNL_WP
+Klik rechts, en klik op Set as default database.</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/1f-ArcCatalog10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="LetOp" style="font-weight: bold;">
+                    <p>Belangrijk:</p>
+                    <p>Vink nu, via het extensions-dialoogvenster, Workflow Manager weer uit !</p>
+                    <p>Het aanzetten wordt vanaf ArcGIS 10.1 namelijk vanuit de WorkflowManager-applicatie zelf geregeld. Als de gebruiker deze zelf in ArcCatalog aanzet, kan er een licensieprobleem ontstaan.</p>
+                </div>
+                <p>&#160;</p>
+                <h3>Mapping naar D: en/of P:-drive</h3>
+                <p>Als je in ArcMap gebruik wil maken van gegevens op de D: of P:-drive is het handig om hier in ArcCatalog alvast een folder-connectie voor aan te maken.</p>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>Klik rechts op FolderConnections en kies in het context menu Connect To Folder…</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/1g-ArcCatalog10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>2</p>
+                            </td>
+                            <td>
+                                <p>Het Connect To Folder-dialoogscherm opent zich.</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/1h-ArcCatalog10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>3</p>
+                            </td>
+                            <td>
+                                <p>Kies voor Computer -&gt; DATA (D:)  Mijn persoonlijke folder (bijvoorbeeld) en bevestig dit met OK.</p>
+                                <p>
+De folderconnectie kan net zo specifiek (of algemeen) gemaakt worden als je zelf wil. Alle bestanden in de folder en alle sub-folders zijn nu benaderbaar in ArcMap.</p>
+                                <p>
+ArcCatalog ziet er nu zo uit:</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/1i-ArcCatalog10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>4</p>
+                            </td>
+                            <td>
+                                <p>Sluit tenslotte ArcCatalog af.</p>
+                            </td>
+                            <td>&#160;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Extensions ins- en uitschakelen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Een extension is een softwareuitbreiding van ArcMap, meestal in de vorm van tools en toolbars. </p>
+                <p>Extensions schakel je in of uit in het Extensions dialoogvenster. </p>
+                <p>De instellingen worden bewaard in de registry van je machine en daarom hoef je ze ook maar 1 keer in te stellen.</p>
+                <p>&#160;</p>
+                <h3>Extensions inschakelen</h3>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>Ga - via Workflow Manager - naar je Job en kies in je workflow een stap, waarbij ArcMap wordt gestart.</p>
+                                <p>
+Nu wordt het pad naar je Normal-file aangemaakt en er wordt een default Normal.mxt in geplaatst.
+</p>
+                                <p>Ga in ArcMap in de menubar naar <b>Customize -&gt; Extensions…</b></p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/3a-ArcMap10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>2</p>
+                            </td>
+                            <td>
+                                <p>Het Extensions-dialoogscherm opent zich.</p>
+                                <p>Controleer of Top10NL Editor extensie, Top10NL Obstakel extensie en Top10NL ArcGis-EspaCity Connection zijn aangevinkt. Zo niet, vink ze dan aan.</p>
+                                <p style="font-weight: bold;">Vink ESPA-extensie als laatste aan.</p>
+                                <p>Er staat ook nog een extensie Task Assistant Manager genoemd. Dit is een alternatief voor de WorkflowManager. Wordt niet gebruikt end dient dus uitgevinkt te blijven</p>
+                            </td>
+                            <td rowspan="2">
+                                <img src="Instellingen/3b-ArcMap10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>3</p>
+                            </td>
+                            <td>
+                                <p>Klik op <i>Close</i></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&#160;</p>
+                <h3>Extensions uitschakelen</h3>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>Open het Extension dialoogvenster: Menu-&gt;Customize-&gt;Extensions</p>
+                            </td>
+                            <td rowspan="3">
+                                <p>Het venster bevat alle op jouw machine geïnstalleerde extensions:<img src="Instellingen/image6.png" class="Thumbnail" /></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>2</p>
+                            </td>
+                            <td>
+                                <p>Vink de gewenste extensions uit</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>3</p>
+                            </td>
+                            <td>
+                                <p>Klik op <i>Close</i></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Snaptolerantie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>De snaptolerantie is de afstand waarbinnen de muisaanwijzer springt naar een punt. Als het punt waarnaar gesprongen wordt (tussenpunt, rand, of eindpunt) binnen de afstand is die je hebt ingesteld, springt de muisaanwijzer automatisch naar dat punt (snapping).</p>
+                <p> De cirkel rond de muisaanwijzer <img src="Instellingen/Instellingen_Cursor_snap1.png" /> geeft aan als er gesprongen wordt.</p>
+                <p> Als het punt waarnaar gesprongen dient te worden buiten de tolerantie valt zal de cirkel bij de aanwijzer blijven: <img src="Instellingen/Instellingen_Cursor_snap2.png" class="Thumbnail" />.</p>
+                <p>Als het punt binnen de tolerantie komt verplaatst de cirkel zich naar het punt:<img src="Instellingen/Instellingen_Cursor_snap3.png" class="Thumbnail" />.</p>
+                <div class="Alert">
+                    <p>Als je tijdens het tekenen de T-toets indrukt wordt d.m.v. een cirkel de snaptolerantie</p>
+                    <p>zichtbaar.</p>
+                </div>
+                <p>&#160;</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Snaptolerantie instellen via dialoogvenster</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>
+                                <p>Open de toolbar Snapping: <img src="Instellingen/image7.png" class="Thumbnail100x48" />.</p>
+                            </li>
+                            <li>
+                                <p>Klik op snapping en daarna op options om een snapping waarde te wijzigen: <img src="Instellingen/image8.png" class="Thumbnail" />.</p>
+                            </li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>&#160;</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Snaptolerantie interactief instellen</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>Klik de knop Snap Tolerance<img src="../Toolbars/Toolbars/Top10NL Editing Environment/Editing_Environment_snap_tolerance.gif" /> .</li>
+                            <li>Geef een datapunt in de kaart en <u>houdt de muisknop ingedrukt</u> en beweeg de muis om een cirkel te tekenen.</li>
+                        </ol>
+                        <div class="LetOp">
+                            <p>Als je wel een datapunt geeft, maar geen cirkel tekent wordt de snaptolerantie ingesteld op 0.</p>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <div class="LetOp">
+                    <p>Een snaptolerantie van 0 kan de prestaties dramatisch verminderen.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Sticky move tolerantie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Sticky move tolerance is afstand die de muisaanwijzer moet bewegen alvorens een geselecteerd object wordt verplaatst. Bij een ingestelde waarde van 0 loop je het risico dat een object al verplaatst tijdens het selecteren. Als je een waarde van 15 of meer instelt is het risico aanzienlijk verminderd. Als je een te grote waarde ingeeft kun je geen object meer verplaatsen.</p>
+                <p>&#160;</p>
+                <h3>Sticky move tolerance instellen via dialoogvenster</h3>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>Open het Editing Options venster door op de knop Options <img src="../Toolbars/Toolbars/Top10NL Editing Environment/Editing_Environment_edit_options.gif" />.  te klikken</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/4a-ArcMap10.png" class="Thumbnail100x48" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>2</p>
+                            </td>
+                            <td>
+                                <p>Selecteer het tabblad General.</p>
+                            </td>
+                            <td rowspan="3">
+                                <img src="Instellingen/4b-ArcMap10.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>3</p>
+                            </td>
+                            <td>
+                                <p>Pas je Sticky move tolerance aan (meeste topografen houden 75 of 100 pixels aan).</p>
+                                <p>
+Haal het vinkje weg bij Use symbolyzed feature during editing.</p>
+                                <p> Dit zorgt ervoor dat je tijdens het editen van een vlak, je luchtfoto blijft zien onder dat vlak.
+</p>
+                                <p>Zet vinkje bij Use classic snapping</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>4</p>
+                            </td>
+                            <td>
+                                <p>Klik OK.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="Alert">
+                    <p>Optimale waarde voor de toughbook in de buitendienst is 75</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Snappen naar kaartlagen (layers) en Edit Sketch</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+Je kunt aangeven naar welke kaartlagen (layers) je wil snappen. Je kunt niet aangeven naar welke afzonderlijke objecten je wil snappen. Per kaartlaag kun je instellen naar welk deel van de objecten je wil snappen, tussenpunten (vertices), randen (edges) of endpoints (eindpunten). De snapinstellingen per kaartlaag noem je "snapping properties".
+Ook kun je instellen of je wil snappen naar de sketch, tussenpunten en randen en of je haaks (penpendicular) op de sketch wil kunnen tekenen.</p>
+                <p>&#160;</p>
+                <h3>Snapping properties instellen</h3>
+                <p>&#160;</p>
+                <p style="font-weight: bold;">Precondities:</p>
+                <p>Een edit sessie moet zijn gestart</p>
+                <p>&#160;</p>
+                <ol>
+                    <li>Open het Snapping Environment venster met de knop <img src="../Toolbars/Toolbars/Top10NL Editing Environment/Editing_Environment_snap_wizard.gif" /></li>
+                    <li>Stel voor elke kaartlaag de snapping in.</li>
+                    <li>
+                        <p>Stel de snapping in voor de Edit Sketch.</p>
+                        <p>De instellingen worden meteen actief.</p>
+                    </li>
+                </ol>
+                <div class="Alert">
+                    <ul>
+                        <li>
+                            <p>Je kunt de snapvolgorde van de lagen instellen door in het Snapping Environment venster de lagen met de muis te verschuiven.</p>
+                        </li>
+                        <li>
+                            <p>Naast het Snapping Environment wordt ook het venster van de Snappig Wizard geopend, waarin je voorkeuren kunt opslaan om zo snel veel instellingen te kunnendoen.</p>
+                        </li>
+                    </ul>
+                </div>
+                <p>Voorkeursinstellingen voor verwerken foto-info: <img src="Instellingen/Instellingen_snapping1.png" class="Thumbnail" /></p>
+                <p>Voorkeursinstellingen voor werken met hartlijnen: <img src="Instellingen/Instellingen_snapping2.png" class="Thumbnail" /></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Selectie tolerantie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+De selectie tolerantie is de afstand in pixels t.o.v. de muisaanwijzer waarbinnen objecten kunnen worden geselecteerd. Standaard staat een waarde van 3 pixels ingesteld. Als je soms moeite hebt een lijnobject te selecteren kan een hogere waarde uitkomst bieden</p>
+                <p>&#160;</p>
+                <h3>Selection tolerance instellen</h3>
+                <ol>
+                    <li>Open het Selection Options venster door met de knop <img src="../Toolbars/Toolbars/Top10NL Editing Environment/Editing_Environment_selection_options.gif" />.</li>
+                    <li>Stel een waarde in voor Selection tolerance</li>
+                    <li>Klik OK</li>
+                </ol>
+                <div class="LetOp">
+                    <p>Je kunt in het Set Selectable Layers venster alle kaartlagen aan- of uitvinken door de CTRL-knop in te drukken als je een kaartlaag selecteert.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Selecteerbare kaartlagen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Je kunt objecten alleen interactief selecteren als de kaartlaag (layer) selecteerbaar is ingesteld.</p>
+                <p>Kaartlagen selecteerbaar maken doe je door in het Set Selectable Layers venster de kaartlagen aan te vinken.</p>
+                <p>&#160;</p>
+                <h3>Kaartlagen selecteerbaar maken</h3>
+                <ul>
+                    <li>Open het Set Selectable Layers venster met de knop <img src="../Toolbars/Toolbars/Top10NL Editing Environment/Editing_Environment_set_selectable_layers.gif" />.</li>
+                    <li>
+                        <p>Vink de kaartlagen aan waarin je objecten wil kunnen selecteren.</p>
+                        <p>Wijzigingen worden direct actief.</p>
+                    </li>
+                </ul>
+                <div class="Alert">
+                    <p>Je kunt in het Set Selectable Layers venster alle kaartlagen aan- of uitvinken door de CTRL-knop in te drukken als je een kaartlaag selecteert.</p>
+                </div>
+                <p>Voorkeurinstellingen bij foto-info verwerken: <img src="Instellingen/Instellingen_Selectable_Layers1.png" class="Thumbnail" /></p>
+                <p>&#160;</p>
+                <p>Voorkeurinstellingen bij hartlijnen verwerken: <img src="Instellingen/Instellingen_Selectable_Layers2.png" class="Thumbnail" /></p>
+                <p>&#160;</p>
+                <div class="Alert">
+                    <p>Je kunt kaartlagen ook selecteerbaar maken in de 'Selection' tab in de table of contents</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Feature cache</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Het gebruik van de map cache kan het werken aanzienlijk versnellen.</p>
+                <table>
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>
+                                    <img src="../Toolbars/Toolbars/Feature Cache/Feature Cache.gif" class="Thumbnail" />
+                                </p>
+                            </td>
+                            <td>
+                                <p>Voor het werken met een map cache  is een aparte toolbar aanwezig.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>De map cache kun je handmatig of automatisch aanmaken.</p>
+                <p>&#160;</p>
+                <p>Zie  <MadCap:xref href="../Toolbars/Feature Cache.htm">Feature Cache</MadCap:xref> voor een uitgebreide beschrijving.</p>
+                <p>&#160;</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Handmatig een map cache maken</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>Open de Feature Cache toolbar</li>
+                            <li>Pan of zoom naar het gebied waarin je wil werken</li>
+                            <li>Klik de knop Build Map Cache <img src="../Toolbars/Toolbars/Feature Cache/image12.png" /> . De objecten in je extent worden in het interne geheugen van je computer geplaatst.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>&#160;</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Automatisch een map cache aanmaken</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>Open de Map Cache toolbar.</li>
+                            <li>Pan of zoom naar het gebied waarin je wil werken.</li>
+                            <li>Klik de knop Toggles Auto-Cache <img src="../Toolbars/Toolbars/Feature Cache/Map_cache_Toggle_Auto.png" />. De objecten in de extent worden in het interne geheugen van je computer geplaatst telkens als het kaartbeeld in de extent veranderd.</li>
+                        </ol>
+                        <div class="Alert" style="clear: left;">
+                            <p>Vergeet niet een Auto-Cache schaal in te stellen.</p>
+                        </div>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>&#160;</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Schaal instellen voor de automatische map cache</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>Zoom in of uit naar de schaal waarop je gaat werken.</li>
+                            <li>
+Klik de knop Set Auto-Cache Scale <img src="../Toolbars/Toolbars/Feature Cache/image15.png" /></li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>&#160;</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot> De minimum schaal voor de automatische cache wissen</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Klik op de knop Clear Auto-Cache Scale <img src="../Toolbars/Toolbars/Feature Cache/image14.png" /></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <p>&#160;</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot> De map cache leeg maken</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>Klik op de knop Empty Map Cache <img src="../Toolbars/Toolbars/Feature Cache/Map_cache_Empty.png" /></li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <div class="Alert" style="clear: left;">
+                    <p>Zet alle objecten in de cache door eerst naar de AOI te zoomen en daarna de cache op te bouwen</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot> Map topology</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Map topology is een simpele topology die je kunt toepassen op simpele objecten (punten, lijnen en vlakken) tijdens een edit sessie. Met map topology kun je tegelijkertijd meerdere objecten bewerken die elkaar overlappen of raken.</p>
+                <p>Je kunt de Topology Edit tool<img src="../Toolbars/Toolbars/Top10NL Editing/Topology_topology_edit_tool.png" /> , de Modify Edge en Reshape Edge taken gebruiken om objecten te bewerken. De objecten kunnen zich in verschillende objectklassen (featureclasses) bevinden en verschillende geometriën hebben. Lijnobjecten en de randen van vlakobjecten worden topologische segmenten (edges) als je map topology gebruikt. Puntobjecten, de eindpunten van lijnen en de plaatsen waar segmenten elkaar snijden worden knooppunten (nodes).</p>
+                <p>&#160;</p>
+                <p>Zie <MadCap:xref href="Map topologie.htm">Map topologie</MadCap:xref> voor een uitgebreide beschrijving.</p>
+                <p>&#160;</p>
+                <h3>Map topology instellen:</h3>
+                <p>&#160;</p>
+                <p style="font-weight: bold;">Precondities:</p>
+                <p>Een edit sessie moet zijn gestart</p>
+                <p>&#160;</p>
+                <ol>
+                    <li>
+                        <p>Klik de Map topology knop <img src="../Toolbars/Toolbars/Top10NL Editing Environment/Topology_MapTopology.gif" />  in de Topology toolbar.</p>
+                    </li>
+                    <li>
+                        <p>Vink de objectklassen aan die mee moeten doen in de map topology.</p>
+                    </li>
+                    <li>
+                        <p>Alle objectklassen in de actieve edit sessie, behalve annotatie en maatvoering, kunnen meedoen en zijn zichtbaar in het dialoogvenster.</p>
+                    </li>
+                    <li>
+                        <p>Optioneel, stel een cluster tolerantie in van 0.15 mtr.</p>
+                    </li>
+                    <li>
+                        <p>De standaard cluster tolerantie is de kleinst mogelijke cluster tolerance. Het vergroten van de cluster tolerantie kan leiden tot het samenvoegen van meer objecten die als samenvallend worden beschouwd, maar kan onnauwkeurigheden in de hand werken.</p>
+                    </li>
+                    <li>
+                        <p>Klik OK.</p>
+                    </li>
+                </ol>
+                <p>&#160;</p>
+                <p>Voorkeursinstellingen bij foto-info verwerken: <img src="Instellingen/Instellingen_Map_Topology1.png" class="Thumbnail" /></p>
+                <p>Voorkeursinstellingen bij hartlijnen verwerken: <img src="Instellingen/Instellingen_Map_Topology2.png" class="Thumbnail" /></p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot> Labeling zichtbaar maken</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Om er voor te zorgen dat de labeling zichtbaar is in combinatie met een voortgangsgrid schakel je de 'default' annotatielaag uit (zie <MadCap:xref href="../Arc-Map.htm#Voortgang">Voortgang</MadCap:xref>).</p>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>Open het Data Frame Properties dialoogvenster vanuit de table of contents</p>
+                            </td>
+                            <td>
+                                <img src="Instellingen/image11.png" class="Thumbnail100x48" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>2</p>
+                            </td>
+                            <td>
+                                <p>Selecteer tabblad "Annotation Groups"</p>
+                            </td>
+                            <td rowspan="3">
+                                <img src="Instellingen/Labeling_Dataframe_properties_default.png" class="Thumbnail100x48" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>3</p>
+                            </td>
+                            <td>
+                                <p>Vink de 'Default" group uit</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>4</p>
+                            </td>
+                            <td>
+                                <p>Klik OK</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>7	Persoonlijke Normal-file installeren</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>Open je verkenner (Computer-icoontje op je bureaublad) en browse naar:</p>
+                                <p>
+Computer -&gt; SYSTEM (C:) -&gt; Users -&gt; Login-naam -&gt; AppData -&gt; Roaming -&gt; ESRI -&gt; Desktop10.1 -&gt; ArcMap -&gt; Templates</p>
+                            </td>
+                            <td rowspan="4">
+                                <img src="Instellingen/6-ArcGIS10.png" class="Thumbnail100x48" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>2</p>
+                            </td>
+                            <td>
+                                <p>Hier zie je nu het bestand Normal.mxt staan.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>3</p>
+                            </td>
+                            <td>
+                                <p>Vervang deze door je eigen persoonlijk Normal-file die je eerder bewaard hebt op de H:/ of P:/-schijf. Bij de Paste-opdracht krijg je een waarschuwing dat de bestaande Normal.mxt overschreven zal gaan worden.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>4</p>
+                            </td>
+                            <td>
+                                <p>Klik dan op Copy and Replace.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4803" MadCap:lastWidth="653">
+    <head>
+        <link href="../Resources/TableStyles/Kadaster 2016 Tabel.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Top10NL Objecten</h1>
+        <p>TOP10NL is de opvolger van Top10Vector en heeft een objectgerichte structuur.</p>
+        <p>Uit de lijnen, symbolen en teksten van Top10Vector worden eenmalig objecten gevormd m.b.v. <MadCap:toggler targets="FME">FME (Feature Manipulation Engine)</MadCap:toggler> en opgeslagen in een <MadCap:toggler targets="Oracle">Oracle</MadCap:toggler> 9i Spatial database.</p>
+        <p> Deze database noemen we de <b>TOP10NL kern</b> en bevat alle objecten van geheel Nederland zonder bladgrenzen.</p>
+        <p>&#160;</p>
+        <p>Objecten in de kern worden nooit rechtstreeks door een gebruiker bewerkt. Het onderhoud op de objecten gebeurt in een aparte database, de zgn. <b>werkdatabase</b>. Deze werkdatabase, ook in Oracle, heeft een structuur die geschikt is om met ArcMap te bewerken. <MadCap:toggler targets="ArcMap">ArcMap</MadCap:toggler> praat niet rechtstreeks met de werkset maar via een tussenlaag, ArcSDE genaamd.</p>
+        <p>Het bijwerken van Top10NL gebeurt volgens de vastgestelde workflow die m.b.v. WMX wordt beheerd.</p>
+        <p>&#160;</p>
+        <p>Van een object kun je de attributen, geometrie of klasse wijzigen, zie hiervoor <MadCap:xref href="Voorbeelden van simpele praktijksituaties.htm">Voorbeelden van simpele praktijksituaties</MadCap:xref>.</p>
+        <div style="clear: left;" MadCap:targetName="FME">
+            <h3>
+                <img src="Objecten/FmeLogo.png" /> FME</h3>
+            <p>&#160;</p>
+            <p><b>FME</b>, de Feature Manipulation Engine, is een product dat ontwikkeld wordt door het Canadese bedrijf SAFE. Het is uitermate geschikt voor het converteren van GIS-data tussen een groot aantal verschillende bestandsformaten. Ook is het mogelijk allerlei bewerkingen op de data uit te voeren zodat het pakket ook voor voorbewerking gebruikt kan worden. Opvallende kenmerken van FME zijn de grote hoeveelheid formaten die het aankan, de snelheid waarmee het werkt en de uitgebreide mogelijkheden tot het fine-tunen van een conversie via de zogenaamde transformers.</p>
+            <p>&#160;</p>
+            <p>FME is beschikbaar in een aantal verschillende versies:</p>
+            <ul>
+                <li>Basisproducten (Windows)</li>
+                <li>FME Desktop De basisversie van FME.</li>
+                <li>Premium producten (Windows)</li>
+                <li>FME Professional Een meer uitgebreide versie van FME met ondersteuning voor meer formaten. Ondersteunt ook standaard coordinaatconversie.</li>
+                <li>FME voor ESRI Geoptimaliseerd voor het verwerken van ESRI SDE data.</li>
+                <li>FME voor Intergraph Geoptimaliseerd voor het werken met GeoMedia</li>
+                <li>FME voor Oracle Kan overweg met Oracle databases.</li>
+                <li>FME voor Smallworld Geoptimaliseerd voor het verwerken van Smallworld data.</li>
+            </ul>
+        </div>
+        <div style="clear: left;" MadCap:targetName="Oracle">
+            <h3>
+                <img src="Objecten/OracleLogo.png" /> Oracle</h3>
+            <p><b>Oracle</b> is een bedrijf en merknaam. Oracle Spatial is een extensie van de Oracle database die de mogelijkheid biedt om ruimtelijke data in een database vast te leggen, te muteren en te bevragen.</p>
+            <p>&#160;</p>
+            <p>Oracle Spatial bestaat uit de volgende componenten:</p>
+            <ul>
+                <li>Een schema in de database, waarin geometrische datatypes kunnen worden vastgelegd;</li>
+                <li>Een indexmechanisme om ruimtelijke data te kunnen indexeren;</li>
+                <li>Een set van operators en functies om ruimtelijke queries en analyses te kunnen uitvoeren.</li>
+                <li>Oracle Spatial kan ruimtelijke gegevens integreren met administratieve gegevens uit dezelfde of andere databases.</li>
+            </ul>
+        </div>
+        <div style="clear: left;" MadCap:targetName="ArcMap">
+            <h3>
+                <img src="Objecten/ArcGisLogo.png" /> ArcMap</h3>
+            <p><b>ArcMap</b> is de centrale applicatie in ArcGIS Desktop.</p>
+            <p> Kaart-geöriënteerde handelingen, zoals editen, analyseren en het maken van cartografische producten, staan centraal in deze applicatie.</p>
+        </div>
+        <p>&#160;</p>
+        <h3><a name="Objectklasse"></a>Objectklasse</h3>
+        <p>&#160;</p>
+        <p>TOP10NL bevat objecten die zijn opgeslagen in een database. Deze objecten hebben identificerende, temporele, meta en beschrijvende kenmerken, die als attributen zijn opgenomen. </p>
+        <p>De vorm van een object wordt vastgelegd met drie basisvormen: de punt, de rechte lijn en het door rechte lijnen begrensde vlak. In een tabel is aangegeven op welke wijze de objecten geometrisch kunnen worden afgebeeld:</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/Kadaster 2016 Tabel.css');" class="TableStyle-Kadaster_2016_Tabel" cellspacing="0">
+            <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+            <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+            <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+            <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Head-Header1">
+                    <th class="TableStyle-Kadaster_2016_Tabel-HeadE-Column1-Header1" style="text-align: left;">
+                        <p>Entiteit</p>
+                    </th>
+                    <th class="TableStyle-Kadaster_2016_Tabel-HeadD-Column1-Header1" colspan="3" style="text-align: left;">
+                        <p colspan="3">Geometrische afbeelding</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" MadCap:conditions="Kadaster b.Navragen">&#160;</td>
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>Vlak</p>
+                    </td>
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>Lijn</p>
+                    </td>
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>Punt</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                        <p>Wegdeel * &#160;&#160;&#160;</p>
+                    </td>
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                        <p>Spoorbaandeel * &#160;&#160;&#160;</p>
+                    </td>
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                        <p>Waterdeel * &#160;&#160;&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                        <p>Bebouwing &#160;&#160;&#160;&#160;&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                        <p>Terrein &#160;&#160;&#160;&#160;&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                        <p>Inrichtingselement &#160;&#160;&#160;&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                        <p>Administratief gebied</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                        <p>Beheersgebied &#160;&#160;&#160;&#160;&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                        <p>Geografisch gebied &#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyB-Column1-Body1">
+                        <p>Functioneel gebied &#160;&#160;&#160;&#160;&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyB-Column1-Body1" style="text-align: center;">
+                        <p>X</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyB-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyA-Column1-Body1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>* Wegdeel, spoorbaandeel en waterdeel kunnen ook 'lijn' in de betekenis van verbindingslijn of 'punt' in de betekenis van knooppunt als geometrische afbeelding hebben.</p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Definitie en basisvormen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Entiteit met status, gedrag, en identiteit.</p>
+                <p>De basisvormen voor het vastleggen van de vorm van objecten zijn punt (<img src="Objecten/Puntobject.gif" class="Thumbnail" />), lijn (<img src="Objecten/Lijnobject.gif" class="Thumbnail" />) en vlak (<img src="Objecten/Vlakobject.gif" class="Thumbnail" />).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Typen Objectklassen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Zowel de kerndatabase als de werkdatabase kennen de volgende objectklassen:</p>
+                <ul>
+                    <li>
+                        <MadCap:xref href="Objecten/Functioneel gebied.htm">Functioneel gebied</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="Objecten/Gebouw.htm">Gebouw</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="Objecten/Geografisch gebied.htm">Geografisch gebied</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="Objecten/Inrichtingselement.htm">Inrichtingselement</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="Objecten/Registratief gebied.htm">Registratief gebied</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="Objecten/Reliëf.htm">Reliëf</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="Objecten/Spoorbaandeel.htm">Spoorbaandeel</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="Objecten/Terrein.htm">Terrein</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="Objecten/Waterdeel.htm">Waterdeel</MadCap:xref>
+                    </li>
+                    <li>
+                        <MadCap:xref href="Objecten/Wegdeel.htm">Wegdeel</MadCap:xref>
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Uniek objectnummer</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Elk object heeft een uniek nummer, ook wel ID genoemd.</p>
+                <p>In de kerndatabase hebben alle objecten een uniek Top10NL-Id, terwijl in de werkdatabase alle objecten een uniek Object-Id hebben en niet perse een Top10NL-Id hoeven te hebben.</p>
+                <p> Top10NL-Id's worden uitgedeeld als een kopie van een object uit de werkdatabase naar de kerndatabase wordt gebracht.</p>
+                <p>ArcMap zorgt er automatisch voor dat elk object in de werkdatabase wordt voorzien van een <u>unieke</u> Object-Id.</p>
+                <p>&#160;</p>
+                <h3>Top10NL-Id</h3>
+                <p>Het Top10NL-Id wordt uitgedeeld door de <b>kern</b>database.</p>
+                <p>Nieuwe objecten in de <b>werk</b>database krijgen geen Top10NL-Id, pas als het wordt gekopieerd naar de <b>kern</b>database wordt het bijgewerkt.</p>
+                <p>Ook als het object vanuit de kerndatabase naar de <b>werk</b>database wordt gekopieerd is het gevuld.</p>
+                <p>&#160;</p>
+                <h3>Object-Id</h3>
+                <p>Alleen in de <b>werk</b>database hebben objecten een Object_Id.</p>
+                <p>Het Object_Id wordt door ArcMap uitgedeeld als het object uit de <b>kern</b>database wordt gekopieerd of als het als nieuw object wordt gedigitaliseerd.</p>
+                <p>&#160;</p>
+                <p>In het attribuutvenster is het Top10NL-Id en het Object_Id zichtbaar.</p>
+                <p>&#160;</p>
+                <p>
+                    <img src="Objecten/Objecten_Id.png" class="Thumbnail" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Attributen</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Elk object heeft <MadCap:toggler targets="Attributen">attributen</MadCap:toggler>, zowel in de <b>werk</b>database als in de <b>kern</b>database.</p>
+                <p> In beide databases hebben ze een aantal attributen hetzelfde, maar in de <b>werk</b>database hebben objecten meer kenmerken zoals oppervlakte, lengte, muteerder en mutatiedatum.</p>
+                <p>Een attribuut is optioneel of verplicht.</p>
+                <p> Optioneel betekent dat het attribuut een waarde <u>mag</u> hebben.</p>
+                <p> In de <b>kern</b>database heeft een object dan niet dat attribuut, in de <b>werk</b>database heeft het attribuut dan de waarde &lt;Null&gt;.</p>
+                <p> Een optioneel attribuut bij een wegdeel is bijvoorbeeld de straatnaam. Verplicht betekent dat het attribuut een waarde <u>moet</u> hebben. In de <b>werk</b>database mag dat attribuut dan niet de waarde &lt;Null&gt; hebben.</p>
+                <p> Een verplicht attribuut bij alle terrein is bijvoorbeeld <i>type landgebruik</i>.</p>
+                <div style="clear: left;" MadCap:targetName="Attributen">
+                    <p>&#160;</p>
+                    <MadCap:snippetBlock src="../Resources/Snippets/Attributen.flsnp" />
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Attribuutwaarden</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Sommige attributen kunnen maar één attribuutwaarde hebben, terwijl andere attributen meerdere waarden mogen hebben.</p>
+                <p> We spreken hier van enkelvoudige en meervoudige attributen.</p>
+                <p> Een wegdeel kan bijvoorbeeld meerdere straatnamen hebben en maar één hoogteniveau. </p>
+                <p>In de <b>werk</b>database worden meerdere <MadCap:toggler targets="Attributen2">attribuutwaarden</MadCap:toggler> gescheiden door het '|' (pipe) teken.</p>
+                <p> De vulling van <i>type gebouw</i> kan er bijvoorbeeld zo uit zien: </p>
+                <p>|huizenblok|postkantoor|politiebureau|.</p>
+                <div style="clear: left;" MadCap:targetName="Attributen2">
+                    <p>&#160;</p>
+                    <MadCap:snippetBlock src="../Resources/Snippets/Attributen.flsnp" />
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Geometrie</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In de <b>kern</b>database hebben wegdelen vaak een meervoudige geometrie. Deze geo-objecten (uitgezonderd wegdelen met hoofdverkeersgebruik ‘parkeren’, ‘parkeren: P+R parkeerplaats’ en ‘parkeren: carpoolplaats’) hebben namelijk een hartlijn-geometrie in de vorm van een lijn (bij verbindingen) of punt (bij kruisingen). </p>
+                <p>Vlakvormige wegdelen kunnen overigens ook wegkanten hebben. Deze zijn nodig voor de visualisatie van parallelle wegen, middellijnen en de wegcontouren op kruisingen.</p>
+                <p>&#160;</p>
+                <p>Ook sommige reliëfobjecten hebben een meervoudige geometrie. Dit geldt voor het type reliëf ‘talud, hoogteverschil’ en ‘steile rand, aardrand’. Deze reliëfobjecten hebben een lijn die de hoge kant aangeeft en een lijn die de lage kant aangeeft.</p>
+                <p>&#160;</p>
+                <p>De registratieve gebieden, geografische gebieden en functionele gebieden kunnen bestaan uit meerdere vlakken. Deze behoren tot hetzelfde gebied met een bepaalde naam. Denk hierbij bijvoorbeeld aan de gemeente Amsterdam die bestaat uit twee vlakken.</p>
+                <p>&#160;</p>
+                <p>In de <b>werk</b>database hebben objecten maar 1 geometrie. Om aan te geven dat bijvoorbeeld een wegvlak, een hartlijn en wegkanten bij elkaar horen worden ze via een <MadCap:toggler targets="Objectrelatie">relatie</MadCap:toggler> gekoppeld (gelinkt). Objecten koppelen d.m.v. een relatie doe je met de tool <MadCap:xref href="Toolbars/Top10NL Editing.htm#Geometry_Linker"> Geometry Linker</MadCap:xref>.</p>
+                <div style="clear: left;" MadCap:targetName="Objectrelatie">
+                    <h3>&#160;</h3>
+                    <h3>Objectrelatie</h3>
+                    <p>Voorbeeld van een relatie tussen een wegvlak en hartlijn getoond in het attribuutvenster: <img src="Objecten/Objecten_relatie.png" class="Thumbnail" /></p>
+                </div>
+                <p>&#160;</p>
+                <table style="mc-table-style: url('../Resources/TableStyles/Kadaster 2016 Tabel.css');" class="TableStyle-Kadaster_2016_Tabel" cellspacing="0">
+                    <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+                    <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+                    <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+                    <col class="TableStyle-Kadaster_2016_Tabel-Column-Column1" />
+                    <tbody>
+                        <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                            <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="font-weight: bold;">
+                                <p>objectklasse in kern</p>
+                            </td>
+                            <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="font-weight: bold;">
+                                <p>geometriesoort</p>
+                            </td>
+                            <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1" style="font-weight: bold;">
+                                <p>objectklasse in werk</p>
+                            </td>
+                            <td class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1" style="font-weight: bold;">
+                                <p>soort geometrie</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                            <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                                <p>wegdeel</p>
+                            </td>
+                            <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                                <p>punt + lijn + vlak</p>
+                            </td>
+                            <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                                <p>wegpunt</p>
+                            </td>
+                            <td class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1">
+                                <p>punt</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                            <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                                <p>&#160;</p>
+                            </td>
+                            <td class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                                <p>&#160;</p>
+                            </td>
+                            <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyE-Column1-Body1">
+                                <p>weglijn</p>
+                            </td>
+                            <td class="TableStyle-Kadaster_2016_Tabel-BodyD-Column1-Body1">
+                                <p>lijn</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Kadaster_2016_Tabel-Body-Body1">
+                            <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyB-Column1-Body1">
+                                <p>&#160;</p>
+                            </td>
+                            <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyB-Column1-Body1">
+                                <p>&#160;</p>
+                            </td>
+                            <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyB-Column1-Body1">
+                                <p>wegvlak</p>
+                            </td>
+                            <td rowspan="1" colspan="1" class="TableStyle-Kadaster_2016_Tabel-BodyA-Column1-Body1">
+                                <p>vlak</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&#160;</p>
+                <p>Een geometrie kan wel uit meerdere delen bestaan, maar worden wel als 1 geometrie gezien. In ArcGis wordt hiervoor de term 'multi-part' gebruikt. Alleen objecten van de types registratieve gebied, geografische gebied en functionele gebied mogen 'multi-part' zijn.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Landsdekkend</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Wegvlakken <img src="Objecten/Info_wegen.png" class="Thumbnail" />, terreinvlakken <img src="Objecten/Info_terrein.png" class="Thumbnail" /> en watervlakken <img src="Objecten/Info_water.png" class="Thumbnail" /> behoren gezamenlijk aanééngrenzend en landsdekkend te zijn<img src="Objecten/Info_terrein_wegen_water.png" class="Thumbnail" />.</p>
+                <p>Er behoren geen zgn. 'witte' gebieden te zijn <img src="Toolbars/Toolbars/Ongebonden functies/Objecten_wit_gebied.png" class="Thumbnail" />.</p>
+                <p>&#160;</p>
+                <p>Een aantal registratieve gebieden, zoals provincies en gemeenten, grenzen aan elkaar en zijn landsdekkend.</p>
+                <p>De functionele en geografische gebieden zijn niet landsdekkend.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Overlappend</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Bovenop de landsdekkende wegvlakken, terreinvlakken en watervlakken liggen gebouwen:</p>
+                <p>
+                    <img src="Objecten/Info_terrein_wegen_water_gebouw.png" class="Thumbnail" />
+                </p>
+                <p>&#160;</p>
+                <p>evenals:</p>
+                <ul>
+                    <li>reliëflijnen</li>
+                    <li>weglijnen</li>
+                    <li>waterlijnen en punten</li>
+                    <li>inrichtingslijnen en punten</li>
+                    <li>spoorlijnen en punten</li>
+                </ul>
+                <p>
+                    <img src="Objecten/Info_terrein_wegen_water_gebouw_rest.png" class="Thumbnail" />
+                </p>
+                <p>Gebouwen maken dus geen deel uit van het terrein</p>
+                <p>&#160;</p>
+                <p>Bovenop de wegvlakken en weglijnen liggen</p>
+                <p>wegpunten, hartlijnen en hartpunten:</p>
+                <p>
+                    <img src="Objecten/Info_terrein_wegen_water_gebouw_rest_hartlijnen.png" class="Thumbnail" />
+                </p>
+                <p>&#160;</p>
+                <p>&#160;</p>
+                <p>Vlakken mogen elkaar niet overlappen indien de waarde van het attribuut <i>hoogteniveau</i> van betrokken objecten gelijk is:</p>
+                <table>
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>2 overlappende wegvlakken.</p>
+                            </td>
+                            <td>
+                                <img src="Objecten/Info_overlappende_wegen.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Een wegvlak overlapt terreinvlak.</p>
+                            </td>
+                            <td>
+                                <img src="Objecten/Info_overlappende_weg_terrein.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Een terreinvlak overlapt watervlak.</p>
+                            </td>
+                            <td>
+                                <img src="Objecten/Info_overlappende_water_terrein.png" class="Thumbnail" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&#160;</p>
+                <p>Ook mag een gebouw niet zomaar een wegvlak of watervlak overlappen zonder dat het attribuut Fysiek voorkomen de waarde 'overkluisd' heeft:</p>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="Objecten/Info_overlappend_gebouw_voor.png" class="Thumbnail" />
+                            </td>
+                            <td>→</td>
+                            <td>
+                                <img src="Objecten/Info_overlappend_gebouw_na.png" class="Thumbnail" />
+                            </td>
+                            <td>
+                                <p>Een gebouwvlak overlapt zowel een watervlak als wegvlak.
+</p>
+                                <p>Alleen het gedeelte van het waterdeel onder het gebouw krijgt <i>fysiek voorkomen</i>='overkluisd',</p>
+                                <p> terwijl een groter deel van het wegvlak hetzelfde overkomt.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&#160;</p>
+                <p style="font-weight: bold;">Een object dat overkluisd is krijgt hetzelfde hoogteniveau als het gebouw dat er boven ligt. </p>
+                <p>Als het gebouw geen waarde voor het hoogteniveau heeft, dan is het hoogteniveau van het overkluisde geo-object '0'.</p>
+                <p>&#160;</p>
+                <p>Een wegvlak dat een watervlak overlapt mag niet, behalve als de weg <i>Fysiek voorkomen</i>='op vast deel van brug' heeft en onder het wegdeel een watervlak met <i>hoogteniveau</i>='-1' aanwezig is:</p>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="Objecten/Info_overlappend_weg_op_brug_voor.png" class="Thumbnail" />
+                            </td>
+                            <td>→</td>
+                            <td>
+                                <img src="Objecten/Info_overlappend_weg_op_brug_na.png" class="Thumbnail" />
+                            </td>
+                            <td>
+                                <p>Het wegvlak overlapt een watervlak.</p>
+                                <p>
+Het wegvlak met <i>fysiek voorkomen</i>='op vast deel van brug' valt gedeeltelijk samen met een watervlak dat <i>hoogteniveau</i>='-1' heeft.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&#160;</p>
+                <p>Een terreinvlak mag niet een watervlak overlappen. Een uitzondering geldt voor terreinvlakken van het <i>type</i>='aanlegsteiger'. In dat geval mag het wel mits het watervlak <i>hoogteniveau</i>='-1' heeft:</p>
+                <table>
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="Objecten/Info_overlappende_water_terrein_voor.png" class="Thumbnail" />
+                            </td>
+                            <td>→</td>
+                            <td>
+                                <img src="Objecten/Info_overlappende_water_terrein_na.png" class="Thumbnail" />
+                            </td>
+                            <td>
+                                <p>Het terreinvlak overlapt het watervlak.
+</p>
+                                <p>Het watervlak onder de steiger heeft <i>hoogteniveau</i>='-1'.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&#160;</p>
+                <p>Functionele, geografische en registratieve moet je los zien van alle andere objectklassen. </p>
+                <p>De grenzen van de functionele gebieden worden indien mogelijk wel afgestemd met de grenzen van de terreinobjecten.</p>
+                <p>De functionele en geografische gebieden kunnen elkaar overlappen.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
