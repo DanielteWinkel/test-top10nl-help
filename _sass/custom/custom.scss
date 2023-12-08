@@ -26,3 +26,18 @@
       align-items: flex-end;
     }
   }
+
+  .main {
+    @include mq(md) {
+      position: relative;
+      max-width: $content-width;
+      margin-left: $nav-width-md;
+    }
+  
+    @include mq(lg) {
+      position: relative;
+      max-width: $content-width;
+      margin-left: $nav-width-md;
+    }
+  }
+  
