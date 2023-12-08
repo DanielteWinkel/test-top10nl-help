@@ -16,11 +16,11 @@ Wijzigingenlog van eerdere versies
 Ondanks de naamgeving volgt deze versie direct op 2015.2.
 
 |     |     |
-| --- | --- |  
+| --- | --- |
 | Handleiding | Toevoeging beeldmateriaal |
 | Home page | Verwijzing naar pdf versie omgeleid naar nieuwe versie 2017.1 en titel aangepast |
 | Overzichtspagina's | Verwijzing naar andere letters toegevoegd |
-| Mappenstructuur heringedeeld |     |
+| Mappenstructuur heringedeeld | |
 | Voorbeeld: Bestaande bebouwing | Geïntegreerd in Algemene regels; herziening |
 | Voorbeeld: Bruggen | Geïntegreerd in Brug; voorbeeld in ArcMap |
 | Voorbeeld: Bijzondere situaties | Geïntegreerd in Brug, Vonder en Zwevende hartlijn |
@@ -36,9 +36,9 @@ Ondanks de naamgeving volgt deze versie direct op 2015.2.
 De overgang naar TOP10NL 1.2 zijn verwerkt in deze voorschriften. Deze voorschriften zijn beschreven in word/pdf formaat, waarbinnen elk onderwerp onderverdeeld is in bijbehorend hoofdstuk.
 
 |     |     |     |
-| --- | --- | --- |  
+| --- | --- | --- |
 | Hoofdstuk | Onderwerp | Handeling |
-| 10  | Overzicht maatvoering objecten | Verduidelijking |
+| 10 | Overzicht maatvoering objecten | Verduidelijking |
 | 12.02 | Aanlegsteiger (smaller dan 2m) | Verduidelijking |
 | 13.06 | Bebouwing | Verduidelijking |
 | 13.06.03 | Carport | Verduidelijking |
@@ -69,7 +69,7 @@ De overgang naar TOP10NL 1.2 zijn verwerkt in deze voorschriften. Deze voorschri
 | 17.01 | Fabriek | Verduidelijking |
 | 18.28 | Golfbreker | Verwijzing |
 | 18.36 | Grasland | Inhoudelijk |
-| 19.04 | Harde Topografie | Inhoudelijk |
+| 19.04 | Harde topografie | Inhoudelijk |
 | 19.06.01 | Haven/ Jachthaven | Verduidelijking |
 | 19.20 | Hoofd | Verwijzing |
 | 19.27 | Hoogteverschil | Verduidelijking |
@@ -144,7 +144,7 @@ De overgang naar TOP10NL 1.2 zijn verwerkt in deze voorschriften. Deze voorschri
 
 ### Wijzingingenlog zoals online in 2015-2016 ovm 2014.1
 |     |     |
-| --- | --- |  
+| --- | --- |
 | Richtlijnen tav de verkenningsvoorschriften | Vervallen |
 | Objectklasse Gebouw/ Gebouw | Verduidelijking |
 | Externe data | Inhoudelijk |

@@ -5,7 +5,6 @@ layout: page
 parent: Verkenningsvoorschriften
 has_children: true
 has_toc: true
-nav_order: 10
 ---
 
 | [A](../A/A.html) | [B](../B/B.html) | [C](../C/C.html) | [D](../D/D.html) | [E](../E/E.html) | [F](../F/F.html) |
@@ -48,7 +47,7 @@ Bestaande_bebouwing
 | [![](../../images/foto-niet-beschikbaar.jpg)](Bezinkbak/Bezinkbak.html)<br>[Bezinkbak](Bezinkbak/Bezinkbak.html)
 | [![](../../images/foto-niet-beschikbaar.jpg)](Bezinktank/Bezinktank.html)<br>[Bezinktank](Bezinktank/Bezinktank.html)
 | [![](Bezoekerscentrum/bezoekerscentrum_dwingelderveld_125x100.jpg)](Bezoekerscentrum/Bezoekerscentrum.html)<br>[Bezoekerscentrum](Bezoekerscentrum/Bezoekerscentrum.html)
-| [![](../K/Kapel/vv_0439_125x100.jpg)](Bidkapel/Bidkapel.html)<br>[Bidkapel](Bidkapel/Bidkapel.html)
+| [![](../K/Kapel_Bidkapel/vv_0439_125x100.jpg)](Bidkapel/Bidkapel.html)<br>[Bidkapel](Bidkapel/Bidkapel.html)
 | [![](../D/Dijkversteviging/vv_0394_123x92.jpg)](Bitumen/Bitumen.html)<br>[Bitumen](Bitumen/Bitumen.html)
 | [![](Boerderij/boerderij_125x100.jpg)](Boerderij/Boerderij.html)<br>[Boerderij](Boerderij/Boerderij.html)
 | [![](Boezem/vv_0076_125x100.jpg)](Boezem/Boezem.html)<br>[Boezem](Boezem/Boezem.html)

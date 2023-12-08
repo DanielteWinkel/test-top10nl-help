@@ -24,7 +24,7 @@ Wordt aangegeven als inrichtingselement van het type **aanlegsteiger**.
 
 ### Breder dan 2 meter
 Wordt aangegeven als terrein van het type landgebruik **aanlegsteiger**.
-- Het onderliggende terrein of waterdeel krijgt **hoogteniveau** –1.
+- Het onderliggende terrein of waterdeel krijgt **hoogteniveau** -1.
 - Generaliserend weergeven met een minimumlengte voor opname van 50m.
 - De minimumlengte geldt niet indien de aanlegsteiger is gelegen in een waterdeel met de functie haven (zie Voorbeeld in het terrein).
 
@@ -38,3 +38,6 @@ Wordt aangegeven als terrein van het type landgebruik **aanlegsteiger**.
 ## Voorbeeld in ArcMap
 
 ![](aanlegsteiger.png)
+
+----------------------
+_zoekwoorden: steiger_

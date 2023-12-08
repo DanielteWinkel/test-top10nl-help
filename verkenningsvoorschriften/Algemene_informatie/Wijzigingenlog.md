@@ -14,13 +14,13 @@ Wijzigingenlog
 ## Versie overzicht
 
 |     |     |     |     |
-| --- | --- | --- | --- |  
+| --- | --- | --- | --- |
 | 2017.1.04 | 19-06-2017 | N. Kolman | Aanpassingen en Status Verkenningsvoorschriften. |
 | 2017.1 | 06-04-2017 | W. Drenthen | Wijzigingen m.b.t. structuur |
 | 2017.1 | 17-02-2017 | HvdVeen | Wijzigingen n.a.v. vragen Kenniscentrum Geo-Informatie (rood in pdf) |
 | 2015.2 | 21-09-2015 | Winked | Wijzigingen n.a.v. TOP10NL 1.2 |
 | 2015.1 | 13-04-2014 | HvdVeen | Wijzigingen n.a.v. vragen Kenniscentrum Geo-Informatie. |
-|     | 21-09-2015 | Winked | Wijzigingen n.a.v. TOP10NL. |
+| | 21-09-2015 | Winked | Wijzigingen n.a.v. TOP10NL. |
 | 2014.1 | 01-01-2014 | HvdVeen | Wijzigingen n.a.v. vragen Kenniscentrum Geo-Informatie. |
 | 2012.1 | 17-08-2012 | Winked | Enkele wijzigingen n.a.v. vragen Kenniscentrum Geo-Informatie en toets topografie. |
 | 2011.2 | 09-06-2011 | Winked | Enkele wijzigingen n.a.v. vragen Kenniscentrum Geo-Informatie. |
@@ -42,13 +42,13 @@ _NB:_ In deze versie zijn er enkele nieuwe onderwerpen bijgekomen.
 Deze zijn per 30-03-2017 nog niet verwerkt in de overzichtspagina's.
 
 |     |     |     |
-| --- | --- | --- |  
+| --- | --- | --- |
 | Volgnummer | Onderwerp | Type wijziging |
 | Meerdere | Alle uitgegrijsde onderwerpen | Tekst online grijs gemaakt om nader te bekijken |
 | 03.01 | Herziening | Inhoudelijk |
-| 04  | Nieuwe mogelijkheden TOP10NL | Verduidelijking |
+| 04 | Nieuwe mogelijkheden TOP10NL | Verduidelijking |
 | 08.02 | Functioneel gebied | Inhoudelijk |
-| 09  | Externe bronnen/ data | Verduidelijking |
+| 09 | Externe bronnen/ data | Verduidelijking |
 | 12.14 | Afritnummer | Inhoudelijk |
 | 12.16 | Afvalbrengstation | Verwijzing |
 | 12.18 | Akkerland | Verduidelijking |
