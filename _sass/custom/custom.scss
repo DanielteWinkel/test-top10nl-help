@@ -1,12 +1,14 @@
 // Overrule de bestaande variabelen in _sass/support/_variables.scss
 
-$nav-width: 20rem;
-$nav-width-md: 20rem;
-$content-width: 20rem;
-$header-height: 7rem;
+// Grid system
+
+$nav-width: 20rem; // standaard 16.5rem
+$nav-width-md: 20rem; // standaard 15.5rem
+$content-width: 70rem; // standaard 50rem
+$header-height: 6rem; // standaard 3.75rem
 
 
-// Overrule the bestaande instellingen in _sass/layout.scss
+// Overrule de bestaande instellingen (alle) in _sass/layout.scss
 
 .side-bar {
   z-index: 0;
