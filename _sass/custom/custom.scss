@@ -17,9 +17,12 @@
     }
   
     @include mq(lg) {
-      // oude regel width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
-      // vaste breedte navigatiebalk
+      // vaste breedte navigatiebalk, zelfde als mq(md)
+      flex-flow: column nowrap;
+      position: fixed;
       width: $nav-width-md;
-      min-width: $nav-width-md;
+      height: 100%;
+      border-right: $border $border-color;
+      align-items: flex-end;
     }
   }
