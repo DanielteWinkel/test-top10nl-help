@@ -1,6 +1,6 @@
 ---
 title: Espa
-last_modified_date: 17-11-2023
+last_modified_date: 27-11-2023
 layout: page
 parent: Beeldmateriaal
 has_children: false
@@ -9,8 +9,6 @@ has_toc: false
 
 Espa
 ====
-
-![](../Espa_200x200.png)
 
 ## Meten met EspaCity
 
@@ -31,7 +29,7 @@ Meer informatie over het werken met Espa vindt je in de [FAQ](#espacity-frequent
 Voordat je met geometrie meten begint moet je de volgende stappen uitvoeren:
 
 ### EspaCity starten
-> Precondities: [Instellingen](../../Esri/Esri_ArcMap/Instellingen.html)
+> Precondities: [Instellingen](../../Esri_ArcGIS/Esri_ArcMap/Instellingen.html)
 
 - Maak de toolbar TOP10NL EspaCity zichtbaar:
   ![](images/image003.gif)
@@ -109,7 +107,7 @@ Laad het els bestand via "File -> Open Imagery…". Blader naar het pad D:\\rast
 
 ## EspaCity - Objecten aanbrengen
 
-Maak een objectdefinitie actief met de [Object Wizard](../../Esri/Esri_ArcMap/Object_Wizard.html).<br>
+Maak een objectdefinitie actief met de [Object Wizard](../../Esri_ArcGIS/Esri_ArcMap/Object_Wizard.html).<br>
 Zodra je een object hebt gemaakt is het zowel in EspaCity als in ArcMap zichtbaar.
 
 ### Rechthoekig vlakobject
@@ -117,7 +115,7 @@ Als voorbeeld objectdefinitie _Huis/gebouw_.
 
 |     |     |     |
 | --- | --- | --- |
-| 1   | Selecteer _Huis/Gebouw_ in de [Object Wizard](../../Esri/Esri_ArcMap/Object_Wizard.html) | |
+| 1   | Selecteer _Huis/Gebouw_ in de [Object Wizard](../../Esri_ArcGIS/Esri_ArcMap/Object_Wizard.html) | |
 | 2   | Digitaliseer het huis/gebouw. | ![](images/image027.png) |
 | 3   | Eindig met toets **g**, vóórdat je het laatste hoekpunt plaatst. | |
 
@@ -128,7 +126,7 @@ Als voorbeeld objectdefinitie _Huizenblok_.
 
 |     |     |     |
 | --- | --- | --- |
-| 1   | Selecteer _Huizenblok_ in de [Object Wizard](../../Esri/Esri_ArcMap/Object_Wizard.html) | |
+| 1   | Selecteer _Huizenblok_ in de [Object Wizard](../../Esri_ArcGIS/Esri_ArcMap/Object_Wizard.html) | |
 | 2   | Digitaliseer het huizenblok. | ![](images/image029.png) |
 | 3   | Eindig met toets **z**, nadat je het laatste hoekpunt plaatst. | |
 
@@ -137,7 +135,7 @@ Als voorbeeld objectdefinitie _Tank_.
 
 |     |     |     |
 | --- | --- | --- |
-| 1   | Selecteer _Tank_ in de [Object Wizard](../../Esri/Esri_ArcMap/Object_Wizard.html) | |
+| 1   | Selecteer _Tank_ in de [Object Wizard](../../Esri_ArcGIS/Esri_ArcMap/Object_Wizard.html) | |
 | 2   | Digitaliseer 3 omtrekpunten van de tank. | ![](images/image031.png) |
 | 3   | Eindig met toets **t**. | |
 
@@ -148,7 +146,7 @@ Als voorbeeld objectdefinitie _Sloot1_.
 
 |     |     |     |
 | --- | --- | --- |
-| 1   | Selecteer _Sloot1_ in de [Object Wizard](../../Esri/Esri_ArcMap/Object_Wizard.html) . | |
+| 1   | Selecteer _Sloot1_ in de [Object Wizard](../../Esri_ArcGIS/Esri_ArcMap/Object_Wizard.html) . | |
 | 2   | Digitaliseer de sloot. | ![](images/image1.png) |
 | 3   | Eindig met toets **l** ("el"). | |
 
@@ -293,7 +291,7 @@ Zowel bij afstanden als bij hoogtes wordt in principe de lengte tussen de laatst
 ## EspaCity - Toetsenbord
 In EspaCity zijn veel commando's gedefinieerd onder toetsaanslagen van het toetsenbord.<br>
 Hieronder een overzicht van de meest gebruikte toetsen. Er zijn zoveel mogelijk logische toetsen gekozen voor de verschillende commando's.
-  
+
 | Toets | Omschrijving |
 | --- | --- |
 | Draaiwieltje links op toetsenbord | Cursor omhoog of omlaag |

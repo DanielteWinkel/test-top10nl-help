@@ -12,4 +12,4 @@ Eyebase
 
 ![](../Eyebase_200x200.png)
 
-Nog geen inhoud
+Nog geen inhoud.

@@ -5,8 +5,8 @@ import fileinput
 # De volgorde van deze stappen is belangrijk, voer ze van boven naar beneden uit
 
 # invoermap opgeven
-# dir_in = r'E:\Daniel\GITea\test-top10nl-help\verkenningsvoorschriften'
-dir_in = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\test-top10nl-help\verkenningsvoorschriften'
+# dir_in = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\dpigi-TOP10NL-help\verkenningsvoorschriften'
+dir_in = r'C:\Users\WinkelDanielte\OneDrive - Kadaster\_GITea_intern\dpigi-TOP10NL-help\Esri'
 datum = "19-09-2023"
 
 # # voor markdownify en html2text (niet gebruikt)
@@ -126,11 +126,15 @@ datum = "19-09-2023"
 #         filenaam = str(files.split("\\")[1])
 #     elif len(filessplit) == 3:
 #         filenaam = str(files.split("\\")[2])
-#     # print(filenaam)
-#     # in onderstaande volgorde renamen
-#       # vervang ' ' door '_'
-#       # vervang ',' door '_'
-#       # vervang '__' door '_' (2 keer uitvoeren)
+#     elif len(filessplit) == 4:
+#         filenaam = str(files.split("\\")[3])
+#     elif len(filessplit) == 5:
+#         filenaam = str(files.split("\\")[4])
+# #     print(filenaam)
+# #     # in onderstaande volgorde renamen
+# #     # vervang ' ' door '_'
+# #     # vervang ',' door '_'
+# #     # vervang '__' door '_' (2 keer uitvoeren)
 #     if ' ' in filenaam:
 #         # print(filenaam)
 #         filenaamnew = filenaam.replace(" ", "_")
@@ -141,6 +145,10 @@ datum = "19-09-2023"
 #             filenew = os.path.join(dir_in, filessplit[0], filenaamnew)
 #         elif len(filessplit) == 3:
 #             filenew = os.path.join(dir_in, filessplit[0], filessplit[1], filenaamnew)
+#         elif len(filessplit) == 4:
+#             filenew = os.path.join(dir_in, filessplit[0], filessplit[1], filessplit[2], filenaamnew)
+#         elif len(filessplit) == 5:
+#             filenew = os.path.join(dir_in, filessplit[0], filessplit[1], filessplit[2], filessplit[3], filenaamnew)
 #         print(file)
 #         print(filenew)
 #         count = count + 1
@@ -172,3 +180,32 @@ datum = "19-09-2023"
     
 # print(count)
 # # --------------------------------------------------------------------------------------------------------------------------------------------------
+
+# --------------------------------------------------------------------------------------------------------------------------------------------------
+# controle bestandsnaam: speciale tekens
+os.chdir(dir_in)
+count = 0
+# voor de hele alfabetmap:
+for files in glob.glob("**/*.*", recursive=True):
+    # print(files)
+    file = os.path.join(dir_in, files)
+    # print(file)
+    # selecteer de bestandsnaam
+    filessplit = files.split("\\")
+    if len(filessplit) == 1:
+        filenaam = str(files.split("\\")[0])
+    elif len(filessplit) == 2:
+        filenaam = str(files.split("\\")[1])
+    elif len(filessplit) == 3:
+        filenaam = str(files.split("\\")[2])
+    elif len(filessplit) == 4:
+        filenaam = str(files.split("\\")[3])
+    elif len(filessplit) == 5:
+        filenaam = str(files.split("\\")[4])
+#     print(filenaam)
+    if '&' in file:
+        print(filenaam)
+        count = count + 1
+        
+print(count)
+# --------------------------------------------------------------------------------------------------------------------------------------------------
