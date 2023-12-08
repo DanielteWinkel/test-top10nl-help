@@ -6,7 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   background-color: $sidebar-color;
-  
+
   @include mq(md) {
     flex-flow: column nowrap;
     position: fixed;
@@ -15,7 +15,7 @@
     border-right: $border $border-color;
     align-items: flex-end;
   }
-  
+
   @include mq(lg) {
     // vaste breedte navigatiebalk, zelfde als mq(md)
     flex-flow: column nowrap;
@@ -40,7 +40,7 @@
     margin-left: $nav-width-md;
   }
 }
-  
+
 .main-content-wrap {
   @include container;
 
@@ -56,8 +56,8 @@
     padding-top: $gutter-spacing;
     padding-bottom: $gutter-spacing;
   }
-}  
-  
+}
+
 .main-header {
   z-index: 0;
   display: none;
@@ -91,7 +91,7 @@
     }
   }
 }
-  
+
 .site-nav,
 .site-header,
 .site-footer {
@@ -105,7 +105,7 @@
     width: $nav-width-md;
   }
 }
-  
+
 .site-nav {
   display: none;
 
@@ -129,7 +129,7 @@
     flex: 1 1 auto;
   }
 }
-  
+
 .site-header {
   display: flex;
   min-height: $header-height;
@@ -147,7 +147,7 @@
     border-bottom: $border $border-color;
   }
 }
-  
+
 .site-title {
   @include container;
 
@@ -170,7 +170,7 @@
     padding-bottom: $sp-2;
   }
 }
-  
+
 @if variable-exists(logo) {
   .site-logo {
     width: 100%;
@@ -181,21 +181,44 @@
     background-size: contain;
   }
 }
-  
+
+.site-button {
+  display: flex;
+  height: 100%;
+  padding: $gutter-spacing-sm;
+  align-items: center;
+}
+
 @include mq(md) {
   .site-header .site-button {
     display: none;
   }
 }
-  
+
 @include mq(lg) {
   .site-header .site-button {
     display: none;
   }
 }
-  
-// stylelint-disable selector-max-type
 
+.site-title:hover {
+  background-image: linear-gradient(
+    -90deg,
+    rgba($feedback-color, 1) 0%,
+    rgba($feedback-color, 0.8) 80%,
+    rgba($feedback-color, 0) 100%
+  );
+}
+
+.site-button:hover {
+  background-image: linear-gradient(
+    -90deg,
+    rgba($feedback-color, 1) 0%,
+    rgba($feedback-color, 0.8) 100%
+  );
+}
+
+// stylelint-disable selector-max-type
 body {
   position: relative;
   padding-bottom: $sp-10;
@@ -211,9 +234,8 @@ body {
     padding-bottom: 0;
   }
 }
-  
-// stylelint-enable selector-max-type
 
+// stylelint-enable selector-max-type
 .site-footer {
   @include container;
 
@@ -234,4 +256,10 @@ body {
     position: static;
     justify-self: end;
   }
+}
+
+.icon {
+  width: $sp-5;
+  height: $sp-5;
+  color: $link-color;
 }
