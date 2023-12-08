@@ -1,5 +1,12 @@
-// The basic two column layout
-// Overrule the exisying layout.scss
+// Overrule de bestaande variabelen in _sass/support/_variables.scss
+
+$nav-width: 20rem;
+$nav-width-md: 20rem;
+$content-width: 70rem;
+$header-height: 5rem;
+
+
+// Overrule the bestaande instellingen in _sass/layout.scss
 
 .side-bar {
   z-index: 0;
@@ -16,8 +23,8 @@
     align-items: flex-end;
   }
 
+  // vaste breedte navigatiebalk, zelfde als mq(md)
   @include mq(lg) {
-    // vaste breedte navigatiebalk, zelfde als mq(md)
     flex-flow: column nowrap;
     position: fixed;
     width: $nav-width-md;
@@ -34,10 +41,11 @@
     margin-left: $nav-width-md;
   }
 
+  // vaste breedte main, zelfde als mq(md)
   @include mq(lg) {
     position: relative;
     max-width: $content-width;
-    margin-left: $nav-width-md;
+    margin-left: $nav-width;
   }
 }
 
@@ -102,7 +110,7 @@
   }
 
   @include mq(lg) {
-    width: $nav-width-md;
+    width: $nav-width;
   }
 }
 
