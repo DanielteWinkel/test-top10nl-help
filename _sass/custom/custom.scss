@@ -20,6 +20,6 @@
       // oude regel width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
       // vaste breedte navigatiebalk
       width: $nav-width-md;
-      min-width: $nav-width;
+      min-width: $nav-width-md;
     }
   }
