@@ -87,10 +87,6 @@ $header-height: 6rem; // Hoogte header groter maken, standaard: 3.75rem
   @include mq(md) {
     width: $nav-width;
   }
-
-  @include mq(lg) {
-    width: $nav-width;
-  }
 }
   
 .site-nav {
