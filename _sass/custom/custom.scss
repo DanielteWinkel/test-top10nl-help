@@ -4,7 +4,7 @@
 // Grid system
 $nav-width: 20rem; // Breedte navigatiebalk links wat breder, standaard: 16.5rem
 $nav-width-md: 20rem; // Breedte navigatiebalk links wat breder, standaard: 15.5rem
-// $content-width: 70rem; // standaard: 50rem
+$content-width: 70rem; // Breedte content-gedeelte, standaard: 50rem
 // $header-height: 6rem; // standaard: 3.75rem
 
 
@@ -24,20 +24,24 @@ $nav-width-md: 20rem; // Breedte navigatiebalk links wat breder, standaard: 15.5
   }
 }
 
-// .main {
-//   @include mq(md) {
-//     position: relative;
-//     max-width: $content-width;
-//     margin-left: $nav-width-md;
-//   }
 
-//   // vaste breedte main, zelfde als mq(md)
-//   @include mq(lg) {
-//     position: relative;
-//     max-width: $content-width;
-//     margin-left: $nav-width;
-//   }
-// }
+
+
+// Zet de breedte van de main vast
+.main {
+  @include mq(md) {
+    position: relative;
+    max-width: $content-width;
+    margin-left: $nav-width-md;
+  }
+
+  // vaste breedte main, zelfde als mq(md)
+  @include mq(lg) {
+    position: relative;
+    max-width: $content-width;
+    margin-left: $nav-width;
+  }
+}
 
 // .main-content-wrap {
 //   @include container;
