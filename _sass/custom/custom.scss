@@ -26,32 +26,10 @@ $header-height: 6rem; // Hoogte header groter maken, standaard: 3.75rem
   }
 
   & + .main {
-    @include mq(md) {
-      margin-left: $nav-width-md;
-    }
-
     // vaste margin voor groot scherm (lg), zelfde instellingen als onder 'include mq(md)'
     @include mq(lg) {
       margin-left: $nav-width-md;
     }
-
-    // .main-header {
-    //   display: none;
-    //   background-color: $sidebar-color;
-
-    //   @include mq(md) {
-    //     display: flex;
-    //     background-color: $body-background-color;
-    //   }
-
-    //   &.nav-open {
-    //     display: block;
-
-    //     @include mq(md) {
-    //       display: flex;
-    //     }
-    //   }
-    // }
   }
 }
 
