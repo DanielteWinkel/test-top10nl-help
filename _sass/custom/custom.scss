@@ -64,26 +64,26 @@ $header-height: 6rem; // Hoogte header groter maken, standaard: 3.75rem
 //   }
 // }
 
-// .main-header {
-//   z-index: 0;
-//   display: none;
-//   background-color: $sidebar-color;
+.main-header {
+  z-index: 0;
+  display: none;
+  background-color: $sidebar-color;
 
-//   @include mq(md) {
-//     display: flex;
-//     justify-content: space-between;
-//     height: $header-height;
-//     background-color: $body-background-color;
-//     border-bottom: $border $border-color;
-//   }
+  @include mq(md) {
+    display: flex;
+    justify-content: space-between;
+    height: $header-height;
+    background-color: $body-background-color;
+    border-bottom: $border $border-color;
+  }
 
-//   @include mq(lg) {
-//     display: flex;
-//     justify-content: space-between;
-//     height: $header-height;
-//     background-color: $body-background-color;
-//     border-bottom: $border $border-color;
-//   }
+  @include mq(lg) {
+    display: flex;
+    justify-content: space-between;
+    height: $header-height;
+    background-color: $body-background-color;
+    border-bottom: $border $border-color;
+  }
 
 //   &.nav-open {
 //     display: block;
