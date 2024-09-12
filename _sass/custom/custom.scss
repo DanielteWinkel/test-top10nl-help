@@ -13,9 +13,9 @@ $header-height: 6rem; // Hoogte header groter maken, standaard: 3.75rem
 // // Werkwijze: bekijk de inhoud van het bestand en laat wijzigingen hieronder terugkomen.
 // // Door releases kunnen deze wijzigingen niet meer werken, vergelijk de bestanden dan opnieuw.
 
-// Zet de breedte van de zijbalk vast
+// Breedte van de navigatiebalk
 .side-bar {
-  // vaste breedte navigatiebalk voor groot scherm (lg), zelfde instellingen als onder 'include mq(md)'
+  // ook zetten voor 'include mq(lg) met zelfde instellingen als onder 'include mq(md)'
   @include mq(lg) {
     flex-flow: column nowrap;
     position: fixed;
@@ -64,7 +64,7 @@ $header-height: 6rem; // Hoogte header groter maken, standaard: 3.75rem
   }
 }
   
-// hoogte van de main-header (waar de zoekbalk in zit) wat groter, daarom hier beide (md en lg)
+// hoogte van de main-header (waar de zoekbalk in zit)
 .main-header {
   @include mq(md) {
     display: flex;
