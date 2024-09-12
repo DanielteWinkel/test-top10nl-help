@@ -66,12 +66,6 @@ $header-height: 6rem; // Hoogte header groter maken, standaard: 3.75rem
   
 // hoogte van de main-header (waar de zoekbalk in zit)
 .main-header {
-  @include mq(md) {
-    display: flex;
-    justify-content: space-between;
-    height: $header-height;
-  }
-
   // ook zetten voor 'include mq(lg) met zelfde instellingen als onder 'include mq(md)'
   @include mq(lg) {
     display: flex;
