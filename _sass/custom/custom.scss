@@ -1,14 +1,15 @@
-// // Overrule de bestaande variabelen in _sass/support/_variables.scss //
+// // Overrule de bestaande variabelen in _sass/support/_variables.scss
+// // Om de inhoud van dit bestand te bekijken: zie https://github.com/just-the-docs/just-the-docs/blob/main/_sass/support/_variables.scss
 
 // Grid system
-
 $nav-width: 20rem; // Breedte navigatiebalk links wat breder, standaard: 16.5rem
 $nav-width-md: 20rem; // Breedte navigatiebalk links wat breder, standaard: 15.5rem
 // $content-width: 70rem; // standaard: 50rem
 // $header-height: 6rem; // standaard: 3.75rem
 
 
-// // Overrule de bestaande instellingen (alle) in _sass/layout.scss //
+// // Overrule de bestaande instellingen die ingesteld zijn in _sass/layout.scss
+// // Om de inhoud van dit bestand te bekijken: zie https://github.com/just-the-docs/just-the-docs/blob/main/_sass/layout.scss
 
 // Zet de breedte van de zijbalk vast
 .side-bar {
