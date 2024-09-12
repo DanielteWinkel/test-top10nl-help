@@ -13,7 +13,7 @@ $nav-width-md: 20rem; // Breedte navigatiebalk links wat breder, standaard: 15.5
 
 // Zet de breedte van de zijbalk vast
 .side-bar {
-  // vaste breedte navigatiebalk, zelfde als mq(md)
+  // vaste breedte navigatiebalk, zelfde instellingen als onder 'include mq(md)'
   @include mq(lg) {
     flex-flow: column nowrap;
     position: fixed;
@@ -23,6 +23,10 @@ $nav-width-md: 20rem; // Breedte navigatiebalk links wat breder, standaard: 15.5
     align-items: flex-end;
   }
 }
+
+
+
+
 
 
 
